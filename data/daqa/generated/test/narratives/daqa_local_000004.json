@@ -1,0 +1,75 @@
+{
+  "set": "test",
+  "audio_index": 4,
+  "audio_filename": "daqa_local_000004.wav",
+  "sample_rate": 16000,
+  "duration": 22.5,
+  "background": "None",
+  "events": [
+    {
+      "order": 0,
+      "event": "c002",
+      "audio": "c002_5.wav",
+      "start_sample": 0,
+      "end_sample": 152000,
+      "start_time": 0.0,
+      "end_time": 9.5,
+      "duration": 9.5,
+      "source": "crowd",
+      "action": "making noise",
+      "loudness": 61.578182887066674
+    },
+    {
+      "order": 1,
+      "event": "d000",
+      "audio": "d000_18.wav",
+      "start_sample": 152000,
+      "end_sample": 168000,
+      "start_time": 9.5,
+      "end_time": 10.5,
+      "duration": 1.0,
+      "source": "door",
+      "action": "closing",
+      "loudness": 33.688211922261814
+    },
+    {
+      "order": 2,
+      "event": "c002",
+      "audio": "c002_3.wav",
+      "start_sample": 168000,
+      "end_sample": 324800,
+      "start_time": 10.5,
+      "end_time": 20.3,
+      "duration": 9.8,
+      "source": "crowd",
+      "action": "rioting",
+      "loudness": 61.65669429931073
+    },
+    {
+      "order": 3,
+      "event": "h003",
+      "audio": "h003_2.wav",
+      "start_sample": 324800,
+      "end_sample": 347200,
+      "start_time": 20.3,
+      "end_time": 21.7,
+      "duration": 1.4,
+      "source": "human",
+      "action": "whistling",
+      "loudness": 32.115827571841805
+    },
+    {
+      "order": 4,
+      "event": "d000",
+      "audio": "d000_11.wav",
+      "start_sample": 347200,
+      "end_sample": 360000,
+      "start_time": 21.7,
+      "end_time": 22.5,
+      "duration": 0.8,
+      "source": "door",
+      "action": "closing",
+      "loudness": 37.68480803370209
+    }
+  ]
+}

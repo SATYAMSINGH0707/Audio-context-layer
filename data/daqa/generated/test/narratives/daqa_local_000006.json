@@ -1,0 +1,88 @@
+{
+  "set": "test",
+  "audio_index": 6,
+  "audio_filename": "daqa_local_000006.wav",
+  "sample_rate": 16000,
+  "duration": 35.7,
+  "background": "None",
+  "events": [
+    {
+      "order": 0,
+      "event": "d000",
+      "audio": "d000_14.wav",
+      "start_sample": 0,
+      "end_sample": 17600,
+      "start_time": 0.0,
+      "end_time": 1.1,
+      "duration": 1.1,
+      "source": "door",
+      "action": "slamming",
+      "loudness": 35.00383412949094
+    },
+    {
+      "order": 1,
+      "event": "c001",
+      "audio": "c001_8.wav",
+      "start_sample": 17600,
+      "end_sample": 81600,
+      "start_time": 1.1,
+      "end_time": 5.1,
+      "duration": 4.0,
+      "source": "crowd",
+      "action": "applauding",
+      "loudness": 35.379909989893655
+    },
+    {
+      "order": 2,
+      "event": "d000",
+      "audio": "d000_7.wav",
+      "start_sample": 81600,
+      "end_sample": 99200,
+      "start_time": 5.1,
+      "end_time": 6.2,
+      "duration": 1.1,
+      "source": "door",
+      "action": "closing",
+      "loudness": 37.110155025779314
+    },
+    {
+      "order": 3,
+      "event": "c002",
+      "audio": "c002_5.wav",
+      "start_sample": 99200,
+      "end_sample": 251200,
+      "start_time": 6.2,
+      "end_time": 15.7,
+      "duration": 9.5,
+      "source": "crowd",
+      "action": "rioting",
+      "loudness": 61.578182887066674
+    },
+    {
+      "order": 4,
+      "event": "c000",
+      "audio": "c000_14.wav",
+      "start_sample": 251200,
+      "end_sample": 475200,
+      "start_time": 15.7,
+      "end_time": 29.7,
+      "duration": 14.0,
+      "source": "crowd",
+      "action": "babbling",
+      "loudness": 25.868999922689557
+    },
+    {
+      "order": 5,
+      "event": "c000",
+      "audio": "c000_9.wav",
+      "start_sample": 475200,
+      "end_sample": 571200,
+      "start_time": 29.7,
+      "end_time": 35.7,
+      "duration": 6.0,
+      "source": "crowd",
+      "action": "babbling",
+      "loudness": 28.686852999531915
+    }
+  ]
+}

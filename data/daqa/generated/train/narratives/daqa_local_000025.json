@@ -1,0 +1,101 @@
+{
+  "set": "train",
+  "audio_index": 25,
+  "audio_filename": "daqa_local_000025.wav",
+  "sample_rate": 16000,
+  "duration": 36.75,
+  "background": "None",
+  "events": [
+    {
+      "order": 0,
+      "event": "p000",
+      "audio": "p000_6.wav",
+      "start_sample": 0,
+      "end_sample": 144000,
+      "start_time": 0.0,
+      "end_time": 9.0,
+      "duration": 9.0,
+      "source": "phone",
+      "action": "ringing",
+      "loudness": 20.830445057531357
+    },
+    {
+      "order": 1,
+      "event": "c002",
+      "audio": "c002_9.wav",
+      "start_sample": 144000,
+      "end_sample": 232000,
+      "start_time": 9.0,
+      "end_time": 14.5,
+      "duration": 5.5,
+      "source": "crowd",
+      "action": "making noise",
+      "loudness": 57.14133808764484
+    },
+    {
+      "order": 2,
+      "event": "p000",
+      "audio": "p000_3.wav",
+      "start_sample": 232000,
+      "end_sample": 381600,
+      "start_time": 14.5,
+      "end_time": 23.85,
+      "duration": 9.35,
+      "source": "phone",
+      "action": "ringing",
+      "loudness": 23.735412007120257
+    },
+    {
+      "order": 3,
+      "event": "p000",
+      "audio": "p000_6.wav",
+      "start_sample": 381600,
+      "end_sample": 525600,
+      "start_time": 23.85,
+      "end_time": 32.85,
+      "duration": 9.0,
+      "source": "phone",
+      "action": "ringing",
+      "loudness": 20.830445057531357
+    },
+    {
+      "order": 4,
+      "event": "d000",
+      "audio": "d000_6.wav",
+      "start_sample": 525600,
+      "end_sample": 541600,
+      "start_time": 32.85,
+      "end_time": 33.85,
+      "duration": 1.0,
+      "source": "door",
+      "action": "slamming",
+      "loudness": 38.677717830735354
+    },
+    {
+      "order": 5,
+      "event": "d000",
+      "audio": "d000_14.wav",
+      "start_sample": 541600,
+      "end_sample": 559200,
+      "start_time": 33.85,
+      "end_time": 34.95,
+      "duration": 1.1,
+      "source": "door",
+      "action": "closing",
+      "loudness": 35.00383412949094
+    },
+    {
+      "order": 6,
+      "event": "h003",
+      "audio": "h003_3.wav",
+      "start_sample": 559200,
+      "end_sample": 588000,
+      "start_time": 34.95,
+      "end_time": 36.75,
+      "duration": 1.8,
+      "source": "human",
+      "action": "whistling",
+      "loudness": 17.80612094963018
+    }
+  ]
+}

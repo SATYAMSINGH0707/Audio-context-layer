@@ -1,0 +1,75 @@
+{
+  "set": "train",
+  "audio_index": 28,
+  "audio_filename": "daqa_local_000028.wav",
+  "sample_rate": 16000,
+  "duration": 29.85,
+  "background": "None",
+  "events": [
+    {
+      "order": 0,
+      "event": "d000",
+      "audio": "d000_5.wav",
+      "start_sample": 0,
+      "end_sample": 14400,
+      "start_time": 0.0,
+      "end_time": 0.9,
+      "duration": 0.9,
+      "source": "door",
+      "action": "slamming",
+      "loudness": 38.76345548153404
+    },
+    {
+      "order": 1,
+      "event": "p000",
+      "audio": "p000_8.wav",
+      "start_sample": 14400,
+      "end_sample": 154400,
+      "start_time": 0.9,
+      "end_time": 9.65,
+      "duration": 8.75,
+      "source": "phone",
+      "action": "ringing",
+      "loudness": 17.673177190150117
+    },
+    {
+      "order": 2,
+      "event": "c002",
+      "audio": "c002_6.wav",
+      "start_sample": 154400,
+      "end_sample": 322400,
+      "start_time": 9.65,
+      "end_time": 20.15,
+      "duration": 10.5,
+      "source": "crowd",
+      "action": "making noise",
+      "loudness": 60.23909555708628
+    },
+    {
+      "order": 3,
+      "event": "d000",
+      "audio": "d000_10.wav",
+      "start_sample": 322400,
+      "end_sample": 333600,
+      "start_time": 20.15,
+      "end_time": 20.85,
+      "duration": 0.7,
+      "source": "door",
+      "action": "slamming",
+      "loudness": 37.53906780508978
+    },
+    {
+      "order": 4,
+      "event": "p000",
+      "audio": "p000_6.wav",
+      "start_sample": 333600,
+      "end_sample": 477600,
+      "start_time": 20.85,
+      "end_time": 29.85,
+      "duration": 9.0,
+      "source": "phone",
+      "action": "ringing",
+      "loudness": 20.830445057531357
+    }
+  ]
+}

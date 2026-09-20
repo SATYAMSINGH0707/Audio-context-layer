@@ -1,0 +1,88 @@
+{
+  "set": "train",
+  "audio_index": 20,
+  "audio_filename": "daqa_local_000020.wav",
+  "sample_rate": 16000,
+  "duration": 41.2,
+  "background": "None",
+  "events": [
+    {
+      "order": 0,
+      "event": "c001",
+      "audio": "c001_10.wav",
+      "start_sample": 0,
+      "end_sample": 64000,
+      "start_time": 0.0,
+      "end_time": 4.0,
+      "duration": 4.0,
+      "source": "crowd",
+      "action": "clapping",
+      "loudness": 33.875666104289614
+    },
+    {
+      "order": 1,
+      "event": "d000",
+      "audio": "d000_11.wav",
+      "start_sample": 64000,
+      "end_sample": 76800,
+      "start_time": 4.0,
+      "end_time": 4.8,
+      "duration": 0.8,
+      "source": "door",
+      "action": "closing",
+      "loudness": 37.68480803370209
+    },
+    {
+      "order": 2,
+      "event": "c000",
+      "audio": "c000_11.wav",
+      "start_sample": 76800,
+      "end_sample": 252800,
+      "start_time": 4.8,
+      "end_time": 15.8,
+      "duration": 11.0,
+      "source": "crowd",
+      "action": "babbling",
+      "loudness": 30.58510783490015
+    },
+    {
+      "order": 3,
+      "event": "h003",
+      "audio": "h003_2.wav",
+      "start_sample": 252800,
+      "end_sample": 275200,
+      "start_time": 15.8,
+      "end_time": 17.2,
+      "duration": 1.4,
+      "source": "human",
+      "action": "whistling",
+      "loudness": 32.115827571841805
+    },
+    {
+      "order": 4,
+      "event": "p000",
+      "audio": "p000_4.wav",
+      "start_sample": 275200,
+      "end_sample": 419200,
+      "start_time": 17.2,
+      "end_time": 26.2,
+      "duration": 9.0,
+      "source": "phone",
+      "action": "ringing",
+      "loudness": 55.28856312277333
+    },
+    {
+      "order": 5,
+      "event": "c000",
+      "audio": "c000_3.wav",
+      "start_sample": 419200,
+      "end_sample": 659200,
+      "start_time": 26.2,
+      "end_time": 41.2,
+      "duration": 15.0,
+      "source": "crowd",
+      "action": "babbling",
+      "loudness": 30.946064586465486
+    }
+  ]
+}

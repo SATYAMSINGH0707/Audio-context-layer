@@ -1,0 +1,101 @@
+{
+  "set": "val",
+  "audio_index": 8,
+  "audio_filename": "daqa_local_000008.wav",
+  "sample_rate": 16000,
+  "duration": 25.9,
+  "background": "None",
+  "events": [
+    {
+      "order": 0,
+      "event": "h003",
+      "audio": "h003_3.wav",
+      "start_sample": 0,
+      "end_sample": 28800,
+      "start_time": 0.0,
+      "end_time": 1.8,
+      "duration": 1.8,
+      "source": "human",
+      "action": "whistling",
+      "loudness": 17.80612094963018
+    },
+    {
+      "order": 1,
+      "event": "h003",
+      "audio": "h003_1.wav",
+      "start_sample": 28800,
+      "end_sample": 52800,
+      "start_time": 1.8,
+      "end_time": 3.3,
+      "duration": 1.5,
+      "source": "human",
+      "action": "whistling",
+      "loudness": 26.88492324859803
+    },
+    {
+      "order": 2,
+      "event": "h003",
+      "audio": "h003_4.wav",
+      "start_sample": 52800,
+      "end_sample": 107200,
+      "start_time": 3.3,
+      "end_time": 6.7,
+      "duration": 3.4,
+      "source": "human",
+      "action": "whistling",
+      "loudness": 23.11683352854224
+    },
+    {
+      "order": 3,
+      "event": "c001",
+      "audio": "c001_6.wav",
+      "start_sample": 107200,
+      "end_sample": 187200,
+      "start_time": 6.7,
+      "end_time": 11.7,
+      "duration": 5.0,
+      "source": "crowd",
+      "action": "clapping",
+      "loudness": 32.41532120234722
+    },
+    {
+      "order": 4,
+      "event": "c002",
+      "audio": "c002_19.wav",
+      "start_sample": 187200,
+      "end_sample": 331200,
+      "start_time": 11.7,
+      "end_time": 20.7,
+      "duration": 9.0,
+      "source": "crowd",
+      "action": "rioting",
+      "loudness": 55.91505355405403
+    },
+    {
+      "order": 5,
+      "event": "d000",
+      "audio": "d000_13.wav",
+      "start_sample": 331200,
+      "end_sample": 350400,
+      "start_time": 20.7,
+      "end_time": 21.9,
+      "duration": 1.2,
+      "source": "door",
+      "action": "shutting",
+      "loudness": 37.12919633083335
+    },
+    {
+      "order": 6,
+      "event": "c001",
+      "audio": "c001_2.wav",
+      "start_sample": 350400,
+      "end_sample": 414400,
+      "start_time": 21.9,
+      "end_time": 25.9,
+      "duration": 4.0,
+      "source": "crowd",
+      "action": "clapping",
+      "loudness": 33.62259556363966
+    }
+  ]
+}

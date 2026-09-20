@@ -1,0 +1,75 @@
+{
+  "set": "train",
+  "audio_index": 18,
+  "audio_filename": "daqa_local_000018.wav",
+  "sample_rate": 16000,
+  "duration": 17.0,
+  "background": "None",
+  "events": [
+    {
+      "order": 0,
+      "event": "c001",
+      "audio": "c001_1.wav",
+      "start_sample": 0,
+      "end_sample": 32000,
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "duration": 2.0,
+      "source": "crowd",
+      "action": "clapping",
+      "loudness": 27.189240373805333
+    },
+    {
+      "order": 1,
+      "event": "c000",
+      "audio": "c000_2.wav",
+      "start_sample": 32000,
+      "end_sample": 112000,
+      "start_time": 2.0,
+      "end_time": 7.0,
+      "duration": 5.0,
+      "source": "crowd",
+      "action": "babbling",
+      "loudness": 30.69246300922056
+    },
+    {
+      "order": 2,
+      "event": "c000",
+      "audio": "c000_2.wav",
+      "start_sample": 112000,
+      "end_sample": 192000,
+      "start_time": 7.0,
+      "end_time": 12.0,
+      "duration": 5.0,
+      "source": "crowd",
+      "action": "babbling",
+      "loudness": 30.69246300922056
+    },
+    {
+      "order": 3,
+      "event": "d000",
+      "audio": "d000_8.wav",
+      "start_sample": 192000,
+      "end_sample": 208000,
+      "start_time": 12.0,
+      "end_time": 13.0,
+      "duration": 1.0,
+      "source": "door",
+      "action": "closing",
+      "loudness": 27.05014872909712
+    },
+    {
+      "order": 4,
+      "event": "c001",
+      "audio": "c001_4.wav",
+      "start_sample": 208000,
+      "end_sample": 272000,
+      "start_time": 13.0,
+      "end_time": 17.0,
+      "duration": 4.0,
+      "source": "crowd",
+      "action": "clapping",
+      "loudness": 34.68756219406862
+    }
+  ]
+}

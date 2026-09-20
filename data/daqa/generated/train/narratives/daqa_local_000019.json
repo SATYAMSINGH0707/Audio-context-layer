@@ -1,0 +1,101 @@
+{
+  "set": "train",
+  "audio_index": 19,
+  "audio_filename": "daqa_local_000019.wav",
+  "sample_rate": 16000,
+  "duration": 68.4,
+  "background": "None",
+  "events": [
+    {
+      "order": 0,
+      "event": "c000",
+      "audio": "c000_14.wav",
+      "start_sample": 0,
+      "end_sample": 224000,
+      "start_time": 0.0,
+      "end_time": 14.0,
+      "duration": 14.0,
+      "source": "crowd",
+      "action": "babbling",
+      "loudness": 25.868999922689557
+    },
+    {
+      "order": 1,
+      "event": "c002",
+      "audio": "c002_9.wav",
+      "start_sample": 224000,
+      "end_sample": 312000,
+      "start_time": 14.0,
+      "end_time": 19.5,
+      "duration": 5.5,
+      "source": "crowd",
+      "action": "making noise",
+      "loudness": 57.14133808764484
+    },
+    {
+      "order": 2,
+      "event": "c002",
+      "audio": "c002_18.wav",
+      "start_sample": 312000,
+      "end_sample": 504000,
+      "start_time": 19.5,
+      "end_time": 31.5,
+      "duration": 12.0,
+      "source": "crowd",
+      "action": "making noise",
+      "loudness": 57.53116944215565
+    },
+    {
+      "order": 3,
+      "event": "c001",
+      "audio": "c001_4.wav",
+      "start_sample": 504000,
+      "end_sample": 568000,
+      "start_time": 31.5,
+      "end_time": 35.5,
+      "duration": 4.0,
+      "source": "crowd",
+      "action": "clapping",
+      "loudness": 34.68756219406862
+    },
+    {
+      "order": 4,
+      "event": "c002",
+      "audio": "c002_18.wav",
+      "start_sample": 568000,
+      "end_sample": 760000,
+      "start_time": 35.5,
+      "end_time": 47.5,
+      "duration": 12.0,
+      "source": "crowd",
+      "action": "making noise",
+      "loudness": 57.53116944215565
+    },
+    {
+      "order": 5,
+      "event": "c002",
+      "audio": "c002_14.wav",
+      "start_sample": 760000,
+      "end_sample": 918400,
+      "start_time": 47.5,
+      "end_time": 57.4,
+      "duration": 9.9,
+      "source": "crowd",
+      "action": "making noise",
+      "loudness": 63.55941175293013
+    },
+    {
+      "order": 6,
+      "event": "c002",
+      "audio": "c002_20.wav",
+      "start_sample": 918400,
+      "end_sample": 1094400,
+      "start_time": 57.4,
+      "end_time": 68.4,
+      "duration": 11.0,
+      "source": "crowd",
+      "action": "making noise",
+      "loudness": 58.612529965756515
+    }
+  ]
+}

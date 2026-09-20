@@ -1,0 +1,101 @@
+{
+  "set": "train",
+  "audio_index": 29,
+  "audio_filename": "daqa_local_000029.wav",
+  "sample_rate": 16000,
+  "duration": 29.9,
+  "background": "None",
+  "events": [
+    {
+      "order": 0,
+      "event": "c000",
+      "audio": "c000_7.wav",
+      "start_sample": 0,
+      "end_sample": 160000,
+      "start_time": 0.0,
+      "end_time": 10.0,
+      "duration": 10.0,
+      "source": "crowd",
+      "action": "babbling",
+      "loudness": 30.33083874393913
+    },
+    {
+      "order": 1,
+      "event": "d000",
+      "audio": "d000_17.wav",
+      "start_sample": 160000,
+      "end_sample": 177600,
+      "start_time": 10.0,
+      "end_time": 11.1,
+      "duration": 1.1,
+      "source": "door",
+      "action": "slamming",
+      "loudness": 27.531443312246537
+    },
+    {
+      "order": 2,
+      "event": "d000",
+      "audio": "d000_1.wav",
+      "start_sample": 177600,
+      "end_sample": 209600,
+      "start_time": 11.1,
+      "end_time": 13.1,
+      "duration": 2.0,
+      "source": "door",
+      "action": "slamming",
+      "loudness": 36.74127271297088
+    },
+    {
+      "order": 3,
+      "event": "p000",
+      "audio": "p000_2.wav",
+      "start_sample": 209600,
+      "end_sample": 276800,
+      "start_time": 13.1,
+      "end_time": 17.3,
+      "duration": 4.2,
+      "source": "phone",
+      "action": "ringing",
+      "loudness": 38.375564235150264
+    },
+    {
+      "order": 4,
+      "event": "d000",
+      "audio": "d000_11.wav",
+      "start_sample": 276800,
+      "end_sample": 289600,
+      "start_time": 17.3,
+      "end_time": 18.1,
+      "duration": 0.8,
+      "source": "door",
+      "action": "closing",
+      "loudness": 37.68480803370209
+    },
+    {
+      "order": 5,
+      "event": "h003",
+      "audio": "h003_5.wav",
+      "start_sample": 289600,
+      "end_sample": 334400,
+      "start_time": 18.1,
+      "end_time": 20.9,
+      "duration": 2.8,
+      "source": "human",
+      "action": "whistling",
+      "loudness": 14.733213642402733
+    },
+    {
+      "order": 6,
+      "event": "p000",
+      "audio": "p000_6.wav",
+      "start_sample": 334400,
+      "end_sample": 478400,
+      "start_time": 20.9,
+      "end_time": 29.9,
+      "duration": 9.0,
+      "source": "phone",
+      "action": "ringing",
+      "loudness": 20.830445057531357
+    }
+  ]
+}

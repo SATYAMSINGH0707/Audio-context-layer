@@ -1,0 +1,41 @@
+# Original DAQA archive
+data/daqa/daqa-audio.tar.gz
+
+# Backup files
+*.bak
+# Python
+__pycache__/
+*.py[cod]
+*.so
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Environment / secrets
+.env
+*.env
+
+# Dataset audio and generated data
+data/daqa/daqa-audio/
+data/daqa/generated/*/audio/
+
+# Large model checkpoints
+checkpoints/*.pt
+checkpoints/*.pth
+checkpoints/*.bin
+checkpoints/*.safetensors
+
+# TensorBoard logs
+checkpoints/tensorboard/
+
+# Temporary / cache files
+*.tmp
+*.temp
+.DS_Store
+._*
+
+# IDE files
+.vscode/
+.idea/

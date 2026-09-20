@@ -1,0 +1,88 @@
+{
+  "set": "train",
+  "audio_index": 36,
+  "audio_filename": "daqa_local_000036.wav",
+  "sample_rate": 16000,
+  "duration": 41.15,
+  "background": "None",
+  "events": [
+    {
+      "order": 0,
+      "event": "c002",
+      "audio": "c002_10.wav",
+      "start_sample": 0,
+      "end_sample": 88000,
+      "start_time": 0.0,
+      "end_time": 5.5,
+      "duration": 5.5,
+      "source": "crowd",
+      "action": "rioting",
+      "loudness": 60.053867976376516
+    },
+    {
+      "order": 1,
+      "event": "d000",
+      "audio": "d000_9.wav",
+      "start_sample": 88000,
+      "end_sample": 110400,
+      "start_time": 5.5,
+      "end_time": 6.9,
+      "duration": 1.4,
+      "source": "door",
+      "action": "shutting",
+      "loudness": 14.970014566972257
+    },
+    {
+      "order": 2,
+      "event": "c000",
+      "audio": "c000_19.wav",
+      "start_sample": 110400,
+      "end_sample": 238400,
+      "start_time": 6.9,
+      "end_time": 14.9,
+      "duration": 8.0,
+      "source": "crowd",
+      "action": "babbling",
+      "loudness": 24.154139689538333
+    },
+    {
+      "order": 3,
+      "event": "c002",
+      "audio": "c002_20.wav",
+      "start_sample": 238400,
+      "end_sample": 414400,
+      "start_time": 14.9,
+      "end_time": 25.9,
+      "duration": 11.0,
+      "source": "crowd",
+      "action": "making noise",
+      "loudness": 58.612529965756515
+    },
+    {
+      "order": 4,
+      "event": "c000",
+      "audio": "c000_1.wav",
+      "start_sample": 414400,
+      "end_sample": 574400,
+      "start_time": 25.9,
+      "end_time": 35.9,
+      "duration": 10.0,
+      "source": "crowd",
+      "action": "babbling",
+      "loudness": 30.225204934439894
+    },
+    {
+      "order": 5,
+      "event": "c002",
+      "audio": "c002_15.wav",
+      "start_sample": 574400,
+      "end_sample": 658400,
+      "start_time": 35.9,
+      "end_time": 41.15,
+      "duration": 5.25,
+      "source": "crowd",
+      "action": "rioting",
+      "loudness": 58.368329514452604
+    }
+  ]
+}

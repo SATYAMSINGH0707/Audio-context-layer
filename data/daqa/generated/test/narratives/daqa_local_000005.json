@@ -1,0 +1,101 @@
+{
+  "set": "test",
+  "audio_index": 5,
+  "audio_filename": "daqa_local_000005.wav",
+  "sample_rate": 16000,
+  "duration": 47.5,
+  "background": "None",
+  "events": [
+    {
+      "order": 0,
+      "event": "c002",
+      "audio": "c002_19.wav",
+      "start_sample": 0,
+      "end_sample": 144000,
+      "start_time": 0.0,
+      "end_time": 9.0,
+      "duration": 9.0,
+      "source": "crowd",
+      "action": "making noise",
+      "loudness": 55.91505355405403
+    },
+    {
+      "order": 1,
+      "event": "h003",
+      "audio": "h003_3.wav",
+      "start_sample": 144000,
+      "end_sample": 172800,
+      "start_time": 9.0,
+      "end_time": 10.8,
+      "duration": 1.8,
+      "source": "human",
+      "action": "whistling",
+      "loudness": 17.80612094963018
+    },
+    {
+      "order": 2,
+      "event": "c000",
+      "audio": "c000_9.wav",
+      "start_sample": 172800,
+      "end_sample": 268800,
+      "start_time": 10.8,
+      "end_time": 16.8,
+      "duration": 6.0,
+      "source": "crowd",
+      "action": "babbling",
+      "loudness": 28.686852999531915
+    },
+    {
+      "order": 3,
+      "event": "c002",
+      "audio": "c002_16.wav",
+      "start_sample": 268800,
+      "end_sample": 356800,
+      "start_time": 16.8,
+      "end_time": 22.3,
+      "duration": 5.5,
+      "source": "crowd",
+      "action": "rioting",
+      "loudness": 58.32559441244497
+    },
+    {
+      "order": 4,
+      "event": "c002",
+      "audio": "c002_20.wav",
+      "start_sample": 356800,
+      "end_sample": 532800,
+      "start_time": 22.3,
+      "end_time": 33.3,
+      "duration": 11.0,
+      "source": "crowd",
+      "action": "making noise",
+      "loudness": 58.612529965756515
+    },
+    {
+      "order": 5,
+      "event": "h003",
+      "audio": "h003_6.wav",
+      "start_sample": 532800,
+      "end_sample": 600000,
+      "start_time": 33.3,
+      "end_time": 37.5,
+      "duration": 4.2,
+      "source": "human",
+      "action": "whistling",
+      "loudness": 16.26258646331483
+    },
+    {
+      "order": 6,
+      "event": "c002",
+      "audio": "c002_17.wav",
+      "start_sample": 600000,
+      "end_sample": 760000,
+      "start_time": 37.5,
+      "end_time": 47.5,
+      "duration": 10.0,
+      "source": "crowd",
+      "action": "rioting",
+      "loudness": 61.112517575226384
+    }
+  ]
+}

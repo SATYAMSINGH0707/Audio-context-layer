@@ -1,0 +1,101 @@
+{
+  "set": "train",
+  "audio_index": 38,
+  "audio_filename": "daqa_local_000038.wav",
+  "sample_rate": 16000,
+  "duration": 51.75,
+  "background": "background_3",
+  "events": [
+    {
+      "order": 0,
+      "event": "d000",
+      "audio": "d000_1.wav",
+      "start_sample": 0,
+      "end_sample": 32000,
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "duration": 2.0,
+      "source": "door",
+      "action": "shutting",
+      "loudness": 36.74127271297088
+    },
+    {
+      "order": 1,
+      "event": "c000",
+      "audio": "c000_19.wav",
+      "start_sample": 32000,
+      "end_sample": 160000,
+      "start_time": 2.0,
+      "end_time": 10.0,
+      "duration": 8.0,
+      "source": "crowd",
+      "action": "babbling",
+      "loudness": 24.154139689538333
+    },
+    {
+      "order": 2,
+      "event": "p000",
+      "audio": "p000_3.wav",
+      "start_sample": 160000,
+      "end_sample": 309600,
+      "start_time": 10.0,
+      "end_time": 19.35,
+      "duration": 9.35,
+      "source": "phone",
+      "action": "ringing",
+      "loudness": 23.735412007120257
+    },
+    {
+      "order": 3,
+      "event": "c002",
+      "audio": "c002_14.wav",
+      "start_sample": 309600,
+      "end_sample": 468000,
+      "start_time": 19.35,
+      "end_time": 29.25,
+      "duration": 9.9,
+      "source": "crowd",
+      "action": "rioting",
+      "loudness": 63.55941175293013
+    },
+    {
+      "order": 4,
+      "event": "c000",
+      "audio": "c000_5.wav",
+      "start_sample": 468000,
+      "end_sample": 580000,
+      "start_time": 29.25,
+      "end_time": 36.25,
+      "duration": 7.0,
+      "source": "crowd",
+      "action": "babbling",
+      "loudness": 29.955377058785274
+    },
+    {
+      "order": 5,
+      "event": "c000",
+      "audio": "c000_1.wav",
+      "start_sample": 580000,
+      "end_sample": 740000,
+      "start_time": 36.25,
+      "end_time": 46.25,
+      "duration": 10.0,
+      "source": "crowd",
+      "action": "babbling",
+      "loudness": 30.225204934439894
+    },
+    {
+      "order": 6,
+      "event": "c002",
+      "audio": "c002_16.wav",
+      "start_sample": 740000,
+      "end_sample": 828000,
+      "start_time": 46.25,
+      "end_time": 51.75,
+      "duration": 5.5,
+      "source": "crowd",
+      "action": "making noise",
+      "loudness": 58.32559441244497
+    }
+  ]
+}

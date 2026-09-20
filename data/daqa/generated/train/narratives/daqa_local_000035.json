@@ -1,0 +1,101 @@
+{
+  "set": "train",
+  "audio_index": 35,
+  "audio_filename": "daqa_local_000035.wav",
+  "sample_rate": 16000,
+  "duration": 60.5,
+  "background": "None",
+  "events": [
+    {
+      "order": 0,
+      "event": "c002",
+      "audio": "c002_20.wav",
+      "start_sample": 0,
+      "end_sample": 176000,
+      "start_time": 0.0,
+      "end_time": 11.0,
+      "duration": 11.0,
+      "source": "crowd",
+      "action": "rioting",
+      "loudness": 58.612529965756515
+    },
+    {
+      "order": 1,
+      "event": "p000",
+      "audio": "p000_2.wav",
+      "start_sample": 176000,
+      "end_sample": 243200,
+      "start_time": 11.0,
+      "end_time": 15.2,
+      "duration": 4.2,
+      "source": "phone",
+      "action": "ringing",
+      "loudness": 38.375564235150264
+    },
+    {
+      "order": 2,
+      "event": "h003",
+      "audio": "h003_5.wav",
+      "start_sample": 243200,
+      "end_sample": 288000,
+      "start_time": 15.2,
+      "end_time": 18.0,
+      "duration": 2.8,
+      "source": "human",
+      "action": "whistling",
+      "loudness": 14.733213642402733
+    },
+    {
+      "order": 3,
+      "event": "c000",
+      "audio": "c000_14.wav",
+      "start_sample": 288000,
+      "end_sample": 512000,
+      "start_time": 18.0,
+      "end_time": 32.0,
+      "duration": 14.0,
+      "source": "crowd",
+      "action": "babbling",
+      "loudness": 25.868999922689557
+    },
+    {
+      "order": 4,
+      "event": "c002",
+      "audio": "c002_7.wav",
+      "start_sample": 512000,
+      "end_sample": 680000,
+      "start_time": 32.0,
+      "end_time": 42.5,
+      "duration": 10.5,
+      "source": "crowd",
+      "action": "making noise",
+      "loudness": 60.23909555708628
+    },
+    {
+      "order": 5,
+      "event": "d001",
+      "audio": "d001_4.wav",
+      "start_sample": 680000,
+      "end_sample": 776000,
+      "start_time": 42.5,
+      "end_time": 48.5,
+      "duration": 6.0,
+      "source": "doorbell",
+      "action": "ringing",
+      "loudness": 17.287630441443724
+    },
+    {
+      "order": 6,
+      "event": "c000",
+      "audio": "c000_16.wav",
+      "start_sample": 776000,
+      "end_sample": 968000,
+      "start_time": 48.5,
+      "end_time": 60.5,
+      "duration": 12.0,
+      "source": "crowd",
+      "action": "babbling",
+      "loudness": 26.77341428126839
+    }
+  ]
+}

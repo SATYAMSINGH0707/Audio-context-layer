@@ -1,0 +1,88 @@
+{
+  "set": "train",
+  "audio_index": 30,
+  "audio_filename": "daqa_local_000030.wav",
+  "sample_rate": 16000,
+  "duration": 40.45,
+  "background": "background_1",
+  "events": [
+    {
+      "order": 0,
+      "event": "c001",
+      "audio": "c001_6.wav",
+      "start_sample": 0,
+      "end_sample": 80000,
+      "start_time": 0.0,
+      "end_time": 5.0,
+      "duration": 5.0,
+      "source": "crowd",
+      "action": "clapping",
+      "loudness": 32.41532120234722
+    },
+    {
+      "order": 1,
+      "event": "c000",
+      "audio": "c000_6.wav",
+      "start_sample": 80000,
+      "end_sample": 160000,
+      "start_time": 5.0,
+      "end_time": 10.0,
+      "duration": 5.0,
+      "source": "crowd",
+      "action": "babbling",
+      "loudness": 27.544333975762612
+    },
+    {
+      "order": 2,
+      "event": "d000",
+      "audio": "d000_18.wav",
+      "start_sample": 160000,
+      "end_sample": 176000,
+      "start_time": 10.0,
+      "end_time": 11.0,
+      "duration": 1.0,
+      "source": "door",
+      "action": "shutting",
+      "loudness": 33.688211922261814
+    },
+    {
+      "order": 3,
+      "event": "c002",
+      "audio": "c002_12.wav",
+      "start_sample": 176000,
+      "end_sample": 273600,
+      "start_time": 11.0,
+      "end_time": 17.1,
+      "duration": 6.1,
+      "source": "crowd",
+      "action": "rioting",
+      "loudness": 59.98061113671588
+    },
+    {
+      "order": 4,
+      "event": "p000",
+      "audio": "p000_3.wav",
+      "start_sample": 273600,
+      "end_sample": 423200,
+      "start_time": 17.1,
+      "end_time": 26.45,
+      "duration": 9.35,
+      "source": "phone",
+      "action": "ringing",
+      "loudness": 23.735412007120257
+    },
+    {
+      "order": 5,
+      "event": "c000",
+      "audio": "c000_14.wav",
+      "start_sample": 423200,
+      "end_sample": 647200,
+      "start_time": 26.45,
+      "end_time": 40.45,
+      "duration": 14.0,
+      "source": "crowd",
+      "action": "babbling",
+      "loudness": 25.868999922689557
+    }
+  ]
+}

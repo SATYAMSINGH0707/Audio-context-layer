@@ -1,0 +1,75 @@
+{
+  "set": "train",
+  "audio_index": 13,
+  "audio_filename": "daqa_local_000013.wav",
+  "sample_rate": 16000,
+  "duration": 46.75,
+  "background": "None",
+  "events": [
+    {
+      "order": 0,
+      "event": "p000",
+      "audio": "p000_8.wav",
+      "start_sample": 0,
+      "end_sample": 140000,
+      "start_time": 0.0,
+      "end_time": 8.75,
+      "duration": 8.75,
+      "source": "phone",
+      "action": "ringing",
+      "loudness": 17.673177190150117
+    },
+    {
+      "order": 1,
+      "event": "d001",
+      "audio": "d001_4.wav",
+      "start_sample": 140000,
+      "end_sample": 236000,
+      "start_time": 8.75,
+      "end_time": 14.75,
+      "duration": 6.0,
+      "source": "doorbell",
+      "action": "ringing",
+      "loudness": 17.287630441443724
+    },
+    {
+      "order": 2,
+      "event": "p000",
+      "audio": "p000_6.wav",
+      "start_sample": 236000,
+      "end_sample": 380000,
+      "start_time": 14.75,
+      "end_time": 23.75,
+      "duration": 9.0,
+      "source": "phone",
+      "action": "ringing",
+      "loudness": 20.830445057531357
+    },
+    {
+      "order": 3,
+      "event": "c002",
+      "audio": "c002_1.wav",
+      "start_sample": 380000,
+      "end_sample": 508000,
+      "start_time": 23.75,
+      "end_time": 31.75,
+      "duration": 8.0,
+      "source": "crowd",
+      "action": "making noise",
+      "loudness": 61.41416683615282
+    },
+    {
+      "order": 4,
+      "event": "c000",
+      "audio": "c000_3.wav",
+      "start_sample": 508000,
+      "end_sample": 748000,
+      "start_time": 31.75,
+      "end_time": 46.75,
+      "duration": 15.0,
+      "source": "crowd",
+      "action": "babbling",
+      "loudness": 30.946064586465486
+    }
+  ]
+}

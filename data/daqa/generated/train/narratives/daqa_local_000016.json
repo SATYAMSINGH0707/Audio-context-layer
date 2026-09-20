@@ -1,0 +1,75 @@
+{
+  "set": "train",
+  "audio_index": 16,
+  "audio_filename": "daqa_local_000016.wav",
+  "sample_rate": 16000,
+  "duration": 31.95,
+  "background": "background_6",
+  "events": [
+    {
+      "order": 0,
+      "event": "c002",
+      "audio": "c002_4.wav",
+      "start_sample": 0,
+      "end_sample": 102400,
+      "start_time": 0.0,
+      "end_time": 6.4,
+      "duration": 6.4,
+      "source": "crowd",
+      "action": "rioting",
+      "loudness": 62.04437876915708
+    },
+    {
+      "order": 1,
+      "event": "h003",
+      "audio": "h003_6.wav",
+      "start_sample": 102400,
+      "end_sample": 169600,
+      "start_time": 6.4,
+      "end_time": 10.6,
+      "duration": 4.2,
+      "source": "human",
+      "action": "whistling",
+      "loudness": 16.26258646331483
+    },
+    {
+      "order": 2,
+      "event": "p000",
+      "audio": "p000_3.wav",
+      "start_sample": 169600,
+      "end_sample": 319200,
+      "start_time": 10.6,
+      "end_time": 19.95,
+      "duration": 9.35,
+      "source": "phone",
+      "action": "ringing",
+      "loudness": 23.735412007120257
+    },
+    {
+      "order": 3,
+      "event": "c001",
+      "audio": "c001_2.wav",
+      "start_sample": 319200,
+      "end_sample": 383200,
+      "start_time": 19.95,
+      "end_time": 23.95,
+      "duration": 4.0,
+      "source": "crowd",
+      "action": "clapping",
+      "loudness": 33.62259556363966
+    },
+    {
+      "order": 4,
+      "event": "c000",
+      "audio": "c000_15.wav",
+      "start_sample": 383200,
+      "end_sample": 511200,
+      "start_time": 23.95,
+      "end_time": 31.95,
+      "duration": 8.0,
+      "source": "crowd",
+      "action": "babbling",
+      "loudness": 25.19268483253234
+    }
+  ]
+}

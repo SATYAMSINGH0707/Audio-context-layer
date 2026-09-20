@@ -1,0 +1,101 @@
+{
+  "set": "train",
+  "audio_index": 1,
+  "audio_filename": "daqa_local_000001.wav",
+  "sample_rate": 16000,
+  "duration": 37.4,
+  "background": "None",
+  "events": [
+    {
+      "order": 0,
+      "event": "d000",
+      "audio": "d000_14.wav",
+      "start_sample": 0,
+      "end_sample": 17600,
+      "start_time": 0.0,
+      "end_time": 1.1,
+      "duration": 1.1,
+      "source": "door",
+      "action": "slamming",
+      "loudness": 35.00383412949094
+    },
+    {
+      "order": 1,
+      "event": "c002",
+      "audio": "c002_7.wav",
+      "start_sample": 17600,
+      "end_sample": 185600,
+      "start_time": 1.1,
+      "end_time": 11.6,
+      "duration": 10.5,
+      "source": "crowd",
+      "action": "rioting",
+      "loudness": 60.23909555708628
+    },
+    {
+      "order": 2,
+      "event": "c002",
+      "audio": "c002_8.wav",
+      "start_sample": 185600,
+      "end_sample": 275200,
+      "start_time": 11.6,
+      "end_time": 17.2,
+      "duration": 5.6,
+      "source": "crowd",
+      "action": "making noise",
+      "loudness": 61.8908805149281
+    },
+    {
+      "order": 3,
+      "event": "p000",
+      "audio": "p000_4.wav",
+      "start_sample": 275200,
+      "end_sample": 419200,
+      "start_time": 17.2,
+      "end_time": 26.2,
+      "duration": 9.0,
+      "source": "phone",
+      "action": "ringing",
+      "loudness": 55.28856312277333
+    },
+    {
+      "order": 4,
+      "event": "c001",
+      "audio": "c001_3.wav",
+      "start_sample": 419200,
+      "end_sample": 499200,
+      "start_time": 26.2,
+      "end_time": 31.2,
+      "duration": 5.0,
+      "source": "crowd",
+      "action": "clapping",
+      "loudness": 32.92147703345374
+    },
+    {
+      "order": 5,
+      "event": "d001",
+      "audio": "d001_3.wav",
+      "start_sample": 499200,
+      "end_sample": 582400,
+      "start_time": 31.2,
+      "end_time": 36.4,
+      "duration": 5.2,
+      "source": "doorbell",
+      "action": "ringing",
+      "loudness": 49.56779303978112
+    },
+    {
+      "order": 6,
+      "event": "d000",
+      "audio": "d000_18.wav",
+      "start_sample": 582400,
+      "end_sample": 598400,
+      "start_time": 36.4,
+      "end_time": 37.4,
+      "duration": 1.0,
+      "source": "door",
+      "action": "slamming",
+      "loudness": 33.688211922261814
+    }
+  ]
+}

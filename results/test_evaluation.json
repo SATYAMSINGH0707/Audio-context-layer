@@ -1,0 +1,578 @@
+{
+  "checkpoint": "checkpoints/audio_qa_best.pt",
+  "test_qa_path": "data/daqa/generated/qa/daqa_local_test_qa.json",
+  "test_audio_dir": "data/daqa/generated/test/audio",
+  "total_questions": 116,
+  "correct": 38,
+  "accuracy": 0.3275862068965517,
+  "accuracy_by_question_type": {
+    "causal": {
+      "correct": 14,
+      "total": 14,
+      "accuracy": 1.0
+    },
+    "counting": {
+      "correct": 10,
+      "total": 25,
+      "accuracy": 0.4
+    },
+    "temporal": {
+      "correct": 9,
+      "total": 57,
+      "accuracy": 0.15789473684210525
+    },
+    "what": {
+      "correct": 5,
+      "total": 20,
+      "accuracy": 0.25
+    }
+  },
+  "errors": [
+    {
+      "audio_filename": "daqa_local_000000.wav",
+      "question": "What sound occurs first in the audio?",
+      "question_type": "what",
+      "true_answer": "crowd clapping",
+      "predicted_answer": "crowd babbling"
+    },
+    {
+      "audio_filename": "daqa_local_000000.wav",
+      "question": "What sound occurs last in the audio?",
+      "question_type": "what",
+      "true_answer": "crowd applauding",
+      "predicted_answer": "crowd babbling"
+    },
+    {
+      "audio_filename": "daqa_local_000000.wav",
+      "question": "How many crowd events occur in the audio?",
+      "question_type": "counting",
+      "true_answer": "7",
+      "predicted_answer": "1"
+    },
+    {
+      "audio_filename": "daqa_local_000000.wav",
+      "question": "What happens immediately after the crowd babbling?",
+      "question_type": "temporal",
+      "true_answer": "crowd clapping",
+      "predicted_answer": "crowd babbling"
+    },
+    {
+      "audio_filename": "daqa_local_000000.wav",
+      "question": "What happens immediately after the crowd clapping?",
+      "question_type": "temporal",
+      "true_answer": "crowd making noise",
+      "predicted_answer": "crowd babbling"
+    },
+    {
+      "audio_filename": "daqa_local_000000.wav",
+      "question": "What happens immediately after the crowd making noise?",
+      "question_type": "temporal",
+      "true_answer": "doorbell ringing",
+      "predicted_answer": "crowd babbling"
+    },
+    {
+      "audio_filename": "daqa_local_000000.wav",
+      "question": "What happens immediately after the doorbell ringing?",
+      "question_type": "temporal",
+      "true_answer": "crowd making noise",
+      "predicted_answer": "crowd babbling"
+    },
+    {
+      "audio_filename": "daqa_local_000000.wav",
+      "question": "What happens immediately after the crowd babbling?",
+      "question_type": "temporal",
+      "true_answer": "crowd applauding",
+      "predicted_answer": "crowd babbling"
+    },
+    {
+      "audio_filename": "daqa_local_000001.wav",
+      "question": "What sound occurs first in the audio?",
+      "question_type": "what",
+      "true_answer": "door shutting",
+      "predicted_answer": "crowd babbling"
+    },
+    {
+      "audio_filename": "daqa_local_000001.wav",
+      "question": "How many crowd events occur in the audio?",
+      "question_type": "counting",
+      "true_answer": "4",
+      "predicted_answer": "3"
+    },
+    {
+      "audio_filename": "daqa_local_000001.wav",
+      "question": "What happens immediately after the door shutting?",
+      "question_type": "temporal",
+      "true_answer": "crowd applauding",
+      "predicted_answer": "crowd babbling"
+    },
+    {
+      "audio_filename": "daqa_local_000001.wav",
+      "question": "What happens immediately after the crowd applauding?",
+      "question_type": "temporal",
+      "true_answer": "crowd making noise",
+      "predicted_answer": "crowd babbling"
+    },
+    {
+      "audio_filename": "daqa_local_000001.wav",
+      "question": "What happens immediately after the crowd making noise?",
+      "question_type": "temporal",
+      "true_answer": "crowd clapping",
+      "predicted_answer": "crowd babbling"
+    },
+    {
+      "audio_filename": "daqa_local_000002.wav",
+      "question": "What sound occurs last in the audio?",
+      "question_type": "what",
+      "true_answer": "crowd clapping",
+      "predicted_answer": "phone ringing"
+    },
+    {
+      "audio_filename": "daqa_local_000002.wav",
+      "question": "How many crowd events occur in the audio?",
+      "question_type": "counting",
+      "true_answer": "5",
+      "predicted_answer": "3"
+    },
+    {
+      "audio_filename": "daqa_local_000002.wav",
+      "question": "What happens immediately after the phone ringing?",
+      "question_type": "temporal",
+      "true_answer": "human whistling",
+      "predicted_answer": "phone ringing"
+    },
+    {
+      "audio_filename": "daqa_local_000002.wav",
+      "question": "What happens immediately after the human whistling?",
+      "question_type": "temporal",
+      "true_answer": "door closing",
+      "predicted_answer": "phone ringing"
+    },
+    {
+      "audio_filename": "daqa_local_000002.wav",
+      "question": "What happens immediately after the door closing?",
+      "question_type": "temporal",
+      "true_answer": "crowd making noise",
+      "predicted_answer": "phone ringing"
+    },
+    {
+      "audio_filename": "daqa_local_000002.wav",
+      "question": "What happens immediately after the crowd making noise?",
+      "question_type": "temporal",
+      "true_answer": "crowd making noise",
+      "predicted_answer": "phone ringing"
+    },
+    {
+      "audio_filename": "daqa_local_000002.wav",
+      "question": "What happens immediately after the crowd making noise?",
+      "question_type": "temporal",
+      "true_answer": "crowd babbling",
+      "predicted_answer": "phone ringing"
+    },
+    {
+      "audio_filename": "daqa_local_000002.wav",
+      "question": "What happens immediately after the crowd babbling?",
+      "question_type": "temporal",
+      "true_answer": "crowd babbling",
+      "predicted_answer": "phone ringing"
+    },
+    {
+      "audio_filename": "daqa_local_000002.wav",
+      "question": "What happens immediately after the crowd babbling?",
+      "question_type": "temporal",
+      "true_answer": "crowd clapping",
+      "predicted_answer": "phone ringing"
+    },
+    {
+      "audio_filename": "daqa_local_000003.wav",
+      "question": "What sound occurs last in the audio?",
+      "question_type": "what",
+      "true_answer": "door shutting",
+      "predicted_answer": "phone ringing"
+    },
+    {
+      "audio_filename": "daqa_local_000003.wav",
+      "question": "How many crowd events occur in the audio?",
+      "question_type": "counting",
+      "true_answer": "4",
+      "predicted_answer": "3"
+    },
+    {
+      "audio_filename": "daqa_local_000003.wav",
+      "question": "How many phone events occur in the audio?",
+      "question_type": "counting",
+      "true_answer": "3",
+      "predicted_answer": "1"
+    },
+    {
+      "audio_filename": "daqa_local_000003.wav",
+      "question": "What happens immediately after the phone ringing?",
+      "question_type": "temporal",
+      "true_answer": "crowd clapping",
+      "predicted_answer": "phone ringing"
+    },
+    {
+      "audio_filename": "daqa_local_000003.wav",
+      "question": "What happens immediately after the phone ringing?",
+      "question_type": "temporal",
+      "true_answer": "crowd applauding",
+      "predicted_answer": "phone ringing"
+    },
+    {
+      "audio_filename": "daqa_local_000003.wav",
+      "question": "What happens immediately after the crowd applauding?",
+      "question_type": "temporal",
+      "true_answer": "crowd rioting",
+      "predicted_answer": "phone ringing"
+    },
+    {
+      "audio_filename": "daqa_local_000003.wav",
+      "question": "What happens immediately after the crowd rioting?",
+      "question_type": "temporal",
+      "true_answer": "crowd rioting",
+      "predicted_answer": "phone ringing"
+    },
+    {
+      "audio_filename": "daqa_local_000003.wav",
+      "question": "What happens immediately after the crowd rioting?",
+      "question_type": "temporal",
+      "true_answer": "door shutting",
+      "predicted_answer": "phone ringing"
+    },
+    {
+      "audio_filename": "daqa_local_000004.wav",
+      "question": "What sound occurs first in the audio?",
+      "question_type": "what",
+      "true_answer": "crowd making noise",
+      "predicted_answer": "crowd babbling"
+    },
+    {
+      "audio_filename": "daqa_local_000004.wav",
+      "question": "What sound occurs last in the audio?",
+      "question_type": "what",
+      "true_answer": "door closing",
+      "predicted_answer": "crowd babbling"
+    },
+    {
+      "audio_filename": "daqa_local_000004.wav",
+      "question": "How many crowd events occur in the audio?",
+      "question_type": "counting",
+      "true_answer": "2",
+      "predicted_answer": "1"
+    },
+    {
+      "audio_filename": "daqa_local_000004.wav",
+      "question": "How many door events occur in the audio?",
+      "question_type": "counting",
+      "true_answer": "2",
+      "predicted_answer": "1"
+    },
+    {
+      "audio_filename": "daqa_local_000004.wav",
+      "question": "What happens immediately after the crowd making noise?",
+      "question_type": "temporal",
+      "true_answer": "door closing",
+      "predicted_answer": "crowd babbling"
+    },
+    {
+      "audio_filename": "daqa_local_000004.wav",
+      "question": "What happens immediately after the door closing?",
+      "question_type": "temporal",
+      "true_answer": "crowd rioting",
+      "predicted_answer": "crowd babbling"
+    },
+    {
+      "audio_filename": "daqa_local_000004.wav",
+      "question": "What happens immediately after the crowd rioting?",
+      "question_type": "temporal",
+      "true_answer": "human whistling",
+      "predicted_answer": "crowd babbling"
+    },
+    {
+      "audio_filename": "daqa_local_000004.wav",
+      "question": "What happens immediately after the human whistling?",
+      "question_type": "temporal",
+      "true_answer": "door closing",
+      "predicted_answer": "crowd babbling"
+    },
+    {
+      "audio_filename": "daqa_local_000005.wav",
+      "question": "What sound occurs first in the audio?",
+      "question_type": "what",
+      "true_answer": "crowd making noise",
+      "predicted_answer": "crowd babbling"
+    },
+    {
+      "audio_filename": "daqa_local_000005.wav",
+      "question": "What sound occurs last in the audio?",
+      "question_type": "what",
+      "true_answer": "crowd rioting",
+      "predicted_answer": "crowd babbling"
+    },
+    {
+      "audio_filename": "daqa_local_000005.wav",
+      "question": "How many crowd events occur in the audio?",
+      "question_type": "counting",
+      "true_answer": "5",
+      "predicted_answer": "3"
+    },
+    {
+      "audio_filename": "daqa_local_000005.wav",
+      "question": "How many human events occur in the audio?",
+      "question_type": "counting",
+      "true_answer": "2",
+      "predicted_answer": "1"
+    },
+    {
+      "audio_filename": "daqa_local_000005.wav",
+      "question": "What happens immediately after the crowd making noise?",
+      "question_type": "temporal",
+      "true_answer": "human whistling",
+      "predicted_answer": "crowd babbling"
+    },
+    {
+      "audio_filename": "daqa_local_000005.wav",
+      "question": "What happens immediately after the crowd babbling?",
+      "question_type": "temporal",
+      "true_answer": "crowd rioting",
+      "predicted_answer": "crowd babbling"
+    },
+    {
+      "audio_filename": "daqa_local_000005.wav",
+      "question": "What happens immediately after the crowd rioting?",
+      "question_type": "temporal",
+      "true_answer": "crowd making noise",
+      "predicted_answer": "crowd babbling"
+    },
+    {
+      "audio_filename": "daqa_local_000005.wav",
+      "question": "What happens immediately after the crowd making noise?",
+      "question_type": "temporal",
+      "true_answer": "human whistling",
+      "predicted_answer": "crowd babbling"
+    },
+    {
+      "audio_filename": "daqa_local_000005.wav",
+      "question": "What happens immediately after the human whistling?",
+      "question_type": "temporal",
+      "true_answer": "crowd rioting",
+      "predicted_answer": "crowd babbling"
+    },
+    {
+      "audio_filename": "daqa_local_000006.wav",
+      "question": "What sound occurs first in the audio?",
+      "question_type": "what",
+      "true_answer": "door slamming",
+      "predicted_answer": "crowd babbling"
+    },
+    {
+      "audio_filename": "daqa_local_000006.wav",
+      "question": "How many crowd events occur in the audio?",
+      "question_type": "counting",
+      "true_answer": "4",
+      "predicted_answer": "3"
+    },
+    {
+      "audio_filename": "daqa_local_000006.wav",
+      "question": "How many door events occur in the audio?",
+      "question_type": "counting",
+      "true_answer": "2",
+      "predicted_answer": "1"
+    },
+    {
+      "audio_filename": "daqa_local_000006.wav",
+      "question": "What happens immediately after the door slamming?",
+      "question_type": "temporal",
+      "true_answer": "crowd applauding",
+      "predicted_answer": "crowd babbling"
+    },
+    {
+      "audio_filename": "daqa_local_000006.wav",
+      "question": "What happens immediately after the crowd applauding?",
+      "question_type": "temporal",
+      "true_answer": "door closing",
+      "predicted_answer": "crowd babbling"
+    },
+    {
+      "audio_filename": "daqa_local_000006.wav",
+      "question": "What happens immediately after the door closing?",
+      "question_type": "temporal",
+      "true_answer": "crowd rioting",
+      "predicted_answer": "crowd babbling"
+    },
+    {
+      "audio_filename": "daqa_local_000007.wav",
+      "question": "What sound occurs first in the audio?",
+      "question_type": "what",
+      "true_answer": "crowd making noise",
+      "predicted_answer": "crowd babbling"
+    },
+    {
+      "audio_filename": "daqa_local_000007.wav",
+      "question": "What sound occurs last in the audio?",
+      "question_type": "what",
+      "true_answer": "crowd rioting",
+      "predicted_answer": "crowd babbling"
+    },
+    {
+      "audio_filename": "daqa_local_000007.wav",
+      "question": "How many crowd events occur in the audio?",
+      "question_type": "counting",
+      "true_answer": "5",
+      "predicted_answer": "1"
+    },
+    {
+      "audio_filename": "daqa_local_000007.wav",
+      "question": "How many human events occur in the audio?",
+      "question_type": "counting",
+      "true_answer": "2",
+      "predicted_answer": "1"
+    },
+    {
+      "audio_filename": "daqa_local_000007.wav",
+      "question": "What happens immediately after the crowd making noise?",
+      "question_type": "temporal",
+      "true_answer": "crowd clapping",
+      "predicted_answer": "crowd babbling"
+    },
+    {
+      "audio_filename": "daqa_local_000007.wav",
+      "question": "What happens immediately after the crowd clapping?",
+      "question_type": "temporal",
+      "true_answer": "human whistling",
+      "predicted_answer": "crowd babbling"
+    },
+    {
+      "audio_filename": "daqa_local_000007.wav",
+      "question": "What happens immediately after the human whistling?",
+      "question_type": "temporal",
+      "true_answer": "crowd clapping",
+      "predicted_answer": "crowd babbling"
+    },
+    {
+      "audio_filename": "daqa_local_000007.wav",
+      "question": "What happens immediately after the crowd clapping?",
+      "question_type": "temporal",
+      "true_answer": "human whistling",
+      "predicted_answer": "crowd babbling"
+    },
+    {
+      "audio_filename": "daqa_local_000007.wav",
+      "question": "What happens immediately after the human whistling?",
+      "question_type": "temporal",
+      "true_answer": "crowd making noise",
+      "predicted_answer": "crowd babbling"
+    },
+    {
+      "audio_filename": "daqa_local_000007.wav",
+      "question": "What happens immediately after the crowd making noise?",
+      "question_type": "temporal",
+      "true_answer": "crowd rioting",
+      "predicted_answer": "crowd babbling"
+    },
+    {
+      "audio_filename": "daqa_local_000008.wav",
+      "question": "What sound occurs last in the audio?",
+      "question_type": "what",
+      "true_answer": "door slamming",
+      "predicted_answer": "phone ringing"
+    },
+    {
+      "audio_filename": "daqa_local_000008.wav",
+      "question": "What happens immediately after the phone ringing?",
+      "question_type": "temporal",
+      "true_answer": "crowd babbling",
+      "predicted_answer": "phone ringing"
+    },
+    {
+      "audio_filename": "daqa_local_000008.wav",
+      "question": "What happens immediately after the crowd babbling?",
+      "question_type": "temporal",
+      "true_answer": "crowd making noise",
+      "predicted_answer": "phone ringing"
+    },
+    {
+      "audio_filename": "daqa_local_000008.wav",
+      "question": "What happens immediately after the crowd making noise?",
+      "question_type": "temporal",
+      "true_answer": "crowd babbling",
+      "predicted_answer": "phone ringing"
+    },
+    {
+      "audio_filename": "daqa_local_000008.wav",
+      "question": "What happens immediately after the crowd babbling?",
+      "question_type": "temporal",
+      "true_answer": "door slamming",
+      "predicted_answer": "phone ringing"
+    },
+    {
+      "audio_filename": "daqa_local_000009.wav",
+      "question": "What sound occurs first in the audio?",
+      "question_type": "what",
+      "true_answer": "crowd making noise",
+      "predicted_answer": "crowd babbling"
+    },
+    {
+      "audio_filename": "daqa_local_000009.wav",
+      "question": "What sound occurs last in the audio?",
+      "question_type": "what",
+      "true_answer": "door slamming",
+      "predicted_answer": "crowd babbling"
+    },
+    {
+      "audio_filename": "daqa_local_000009.wav",
+      "question": "How many crowd events occur in the audio?",
+      "question_type": "counting",
+      "true_answer": "6",
+      "predicted_answer": "1"
+    },
+    {
+      "audio_filename": "daqa_local_000009.wav",
+      "question": "How many door events occur in the audio?",
+      "question_type": "counting",
+      "true_answer": "2",
+      "predicted_answer": "1"
+    },
+    {
+      "audio_filename": "daqa_local_000009.wav",
+      "question": "What happens immediately after the crowd babbling?",
+      "question_type": "temporal",
+      "true_answer": "crowd clapping",
+      "predicted_answer": "crowd babbling"
+    },
+    {
+      "audio_filename": "daqa_local_000009.wav",
+      "question": "What happens immediately after the crowd clapping?",
+      "question_type": "temporal",
+      "true_answer": "crowd rioting",
+      "predicted_answer": "crowd babbling"
+    },
+    {
+      "audio_filename": "daqa_local_000009.wav",
+      "question": "What happens immediately after the crowd rioting?",
+      "question_type": "temporal",
+      "true_answer": "crowd making noise",
+      "predicted_answer": "crowd babbling"
+    },
+    {
+      "audio_filename": "daqa_local_000009.wav",
+      "question": "What happens immediately after the crowd making noise?",
+      "question_type": "temporal",
+      "true_answer": "crowd making noise",
+      "predicted_answer": "crowd babbling"
+    },
+    {
+      "audio_filename": "daqa_local_000009.wav",
+      "question": "What happens immediately after the crowd making noise?",
+      "question_type": "temporal",
+      "true_answer": "door shutting",
+      "predicted_answer": "crowd babbling"
+    },
+    {
+      "audio_filename": "daqa_local_000009.wav",
+      "question": "What happens immediately after the door shutting?",
+      "question_type": "temporal",
+      "true_answer": "door slamming",
+      "predicted_answer": "crowd babbling"
+    }
+  ]
+}

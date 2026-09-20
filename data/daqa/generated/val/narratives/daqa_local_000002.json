@@ -1,0 +1,88 @@
+{
+  "set": "val",
+  "audio_index": 2,
+  "audio_filename": "daqa_local_000002.wav",
+  "sample_rate": 16000,
+  "duration": 46.6,
+  "background": "None",
+  "events": [
+    {
+      "order": 0,
+      "event": "p000",
+      "audio": "p000_7.wav",
+      "start_sample": 0,
+      "end_sample": 136000,
+      "start_time": 0.0,
+      "end_time": 8.5,
+      "duration": 8.5,
+      "source": "phone",
+      "action": "ringing",
+      "loudness": 43.29879455479927
+    },
+    {
+      "order": 1,
+      "event": "c000",
+      "audio": "c000_20.wav",
+      "start_sample": 136000,
+      "end_sample": 248000,
+      "start_time": 8.5,
+      "end_time": 15.5,
+      "duration": 7.0,
+      "source": "crowd",
+      "action": "babbling",
+      "loudness": 42.11105242500191
+    },
+    {
+      "order": 2,
+      "event": "c002",
+      "audio": "c002_11.wav",
+      "start_sample": 248000,
+      "end_sample": 345600,
+      "start_time": 15.5,
+      "end_time": 21.6,
+      "duration": 6.1,
+      "source": "crowd",
+      "action": "making noise",
+      "loudness": 59.98061113671588
+    },
+    {
+      "order": 3,
+      "event": "c002",
+      "audio": "c002_13.wav",
+      "start_sample": 345600,
+      "end_sample": 534400,
+      "start_time": 21.6,
+      "end_time": 33.4,
+      "duration": 11.8,
+      "source": "crowd",
+      "action": "rioting",
+      "loudness": 60.165823138616716
+    },
+    {
+      "order": 4,
+      "event": "p000",
+      "audio": "p000_1.wav",
+      "start_sample": 534400,
+      "end_sample": 681600,
+      "start_time": 33.4,
+      "end_time": 42.6,
+      "duration": 9.2,
+      "source": "phone",
+      "action": "ringing",
+      "loudness": 43.82395958770234
+    },
+    {
+      "order": 5,
+      "event": "c000",
+      "audio": "c000_8.wav",
+      "start_sample": 681600,
+      "end_sample": 745600,
+      "start_time": 42.6,
+      "end_time": 46.6,
+      "duration": 4.0,
+      "source": "crowd",
+      "action": "babbling",
+      "loudness": 25.726716528007174
+    }
+  ]
+}

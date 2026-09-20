@@ -1,0 +1,75 @@
+{
+  "set": "train",
+  "audio_index": 5,
+  "audio_filename": "daqa_local_000005.wav",
+  "sample_rate": 16000,
+  "duration": 30.85,
+  "background": "background_7",
+  "events": [
+    {
+      "order": 0,
+      "event": "p000",
+      "audio": "p000_3.wav",
+      "start_sample": 0,
+      "end_sample": 149600,
+      "start_time": 0.0,
+      "end_time": 9.35,
+      "duration": 9.35,
+      "source": "phone",
+      "action": "ringing",
+      "loudness": 23.735412007120257
+    },
+    {
+      "order": 1,
+      "event": "c002",
+      "audio": "c002_6.wav",
+      "start_sample": 149600,
+      "end_sample": 317600,
+      "start_time": 9.35,
+      "end_time": 19.85,
+      "duration": 10.5,
+      "source": "crowd",
+      "action": "rioting",
+      "loudness": 60.23909555708628
+    },
+    {
+      "order": 2,
+      "event": "c002",
+      "audio": "c002_1.wav",
+      "start_sample": 317600,
+      "end_sample": 445600,
+      "start_time": 19.85,
+      "end_time": 27.85,
+      "duration": 8.0,
+      "source": "crowd",
+      "action": "rioting",
+      "loudness": 61.41416683615282
+    },
+    {
+      "order": 3,
+      "event": "d000",
+      "audio": "d000_18.wav",
+      "start_sample": 445600,
+      "end_sample": 461600,
+      "start_time": 27.85,
+      "end_time": 28.85,
+      "duration": 1.0,
+      "source": "door",
+      "action": "shutting",
+      "loudness": 33.688211922261814
+    },
+    {
+      "order": 4,
+      "event": "d000",
+      "audio": "d000_1.wav",
+      "start_sample": 461600,
+      "end_sample": 493600,
+      "start_time": 28.85,
+      "end_time": 30.85,
+      "duration": 2.0,
+      "source": "door",
+      "action": "closing",
+      "loudness": 36.74127271297088
+    }
+  ]
+}

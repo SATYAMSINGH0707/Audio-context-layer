@@ -1,0 +1,3925 @@
+{
+  "info": {
+    "dataset": "DAQA-style local synthetic dataset",
+    "version": "1.0",
+    "split": "train",
+    "question_types": [
+      "what",
+      "counting",
+      "temporal",
+      "causal"
+    ],
+    "num_audio": 40,
+    "num_questions": 475
+  },
+  "questions": [
+    {
+      "question_type": "what",
+      "question": "What sound occurs first in the audio?",
+      "answer": "door shutting",
+      "set": "train",
+      "audio_index": 0,
+      "audio_filename": "daqa_local_000000.wav"
+    },
+    {
+      "question_type": "what",
+      "question": "What sound occurs last in the audio?",
+      "answer": "crowd babbling",
+      "set": "train",
+      "audio_index": 0,
+      "audio_filename": "daqa_local_000000.wav"
+    },
+    {
+      "question_type": "counting",
+      "question": "How many crowd events occur in the audio?",
+      "answer": "7",
+      "set": "train",
+      "audio_index": 0,
+      "audio_filename": "daqa_local_000000.wav"
+    },
+    {
+      "question_type": "counting",
+      "question": "How many door events occur in the audio?",
+      "answer": "1",
+      "set": "train",
+      "audio_index": 0,
+      "audio_filename": "daqa_local_000000.wav"
+    },
+    {
+      "question_type": "temporal",
+      "question": "What happens immediately after the door shutting?",
+      "answer": "crowd making noise",
+      "set": "train",
+      "audio_index": 0,
+      "audio_filename": "daqa_local_000000.wav"
+    },
+    {
+      "question_type": "temporal",
+      "question": "What happens immediately after the crowd making noise?",
+      "answer": "crowd clapping",
+      "set": "train",
+      "audio_index": 0,
+      "audio_filename": "daqa_local_000000.wav"
+    },
+    {
+      "question_type": "temporal",
+      "question": "What happens immediately after the crowd clapping?",
+      "answer": "crowd clapping",
+      "set": "train",
+      "audio_index": 0,
+      "audio_filename": "daqa_local_000000.wav"
+    },
+    {
+      "question_type": "temporal",
+      "question": "What happens immediately after the crowd clapping?",
+      "answer": "crowd babbling",
+      "set": "train",
+      "audio_index": 0,
+      "audio_filename": "daqa_local_000000.wav"
+    },
+    {
+      "question_type": "temporal",
+      "question": "What happens immediately after the crowd babbling?",
+      "answer": "crowd babbling",
+      "set": "train",
+      "audio_index": 0,
+      "audio_filename": "daqa_local_000000.wav"
+    },
+    {
+      "question_type": "temporal",
+      "question": "What happens immediately after the crowd babbling?",
+      "answer": "crowd babbling",
+      "set": "train",
+      "audio_index": 0,
+      "audio_filename": "daqa_local_000000.wav"
+    },
+    {
+      "question_type": "temporal",
+      "question": "What happens immediately after the crowd babbling?",
+      "answer": "crowd babbling",
+      "set": "train",
+      "audio_index": 0,
+      "audio_filename": "daqa_local_000000.wav"
+    },
+    {
+      "question_type": "causal",
+      "question_template": "crowd_environment",
+      "question": "Why does the audio suggest a crowd environment?",
+      "answer": "crowd environment",
+      "evidence": "The audio contains 7 crowd-related events.",
+      "set": "train",
+      "audio_index": 0,
+      "audio_filename": "daqa_local_000000.wav"
+    },
+    {
+      "question_type": "what",
+      "question": "What sound occurs first in the audio?",
+      "answer": "door slamming",
+      "set": "train",
+      "audio_index": 1,
+      "audio_filename": "daqa_local_000001.wav"
+    },
+    {
+      "question_type": "what",
+      "question": "What sound occurs last in the audio?",
+      "answer": "door slamming",
+      "set": "train",
+      "audio_index": 1,
+      "audio_filename": "daqa_local_000001.wav"
+    },
+    {
+      "question_type": "counting",
+      "question": "How many crowd events occur in the audio?",
+      "answer": "3",
+      "set": "train",
+      "audio_index": 1,
+      "audio_filename": "daqa_local_000001.wav"
+    },
+    {
+      "question_type": "counting",
+      "question": "How many door events occur in the audio?",
+      "answer": "2",
+      "set": "train",
+      "audio_index": 1,
+      "audio_filename": "daqa_local_000001.wav"
+    },
+    {
+      "question_type": "counting",
+      "question": "How many doorbell events occur in the audio?",
+      "answer": "1",
+      "set": "train",
+      "audio_index": 1,
+      "audio_filename": "daqa_local_000001.wav"
+    },
+    {
+      "question_type": "counting",
+      "question": "How many phone events occur in the audio?",
+      "answer": "1",
+      "set": "train",
+      "audio_index": 1,
+      "audio_filename": "daqa_local_000001.wav"
+    },
+    {
+      "question_type": "temporal",
+      "question": "What happens immediately after the door slamming?",
+      "answer": "crowd rioting",
+      "set": "train",
+      "audio_index": 1,
+      "audio_filename": "daqa_local_000001.wav"
+    },
+    {
+      "question_type": "temporal",
+      "question": "What happens immediately after the crowd rioting?",
+      "answer": "crowd making noise",
+      "set": "train",
+      "audio_index": 1,
+      "audio_filename": "daqa_local_000001.wav"
+    },
+    {
+      "question_type": "temporal",
+      "question": "What happens immediately after the crowd making noise?",
+      "answer": "phone ringing",
+      "set": "train",
+      "audio_index": 1,
+      "audio_filename": "daqa_local_000001.wav"
+    },
+    {
+      "question_type": "temporal",
+      "question": "What happens immediately after the phone ringing?",
+      "answer": "crowd clapping",
+      "set": "train",
+      "audio_index": 1,
+      "audio_filename": "daqa_local_000001.wav"
+    },
+    {
+      "question_type": "temporal",
+      "question": "What happens immediately after the crowd clapping?",
+      "answer": "doorbell ringing",
+      "set": "train",
+      "audio_index": 1,
+      "audio_filename": "daqa_local_000001.wav"
+    },
+    {
+      "question_type": "temporal",
+      "question": "What happens immediately after the doorbell ringing?",
+      "answer": "door slamming",
+      "set": "train",
+      "audio_index": 1,
+      "audio_filename": "daqa_local_000001.wav"
+    },
+    {
+      "question_type": "causal",
+      "question_template": "crowd_environment",
+      "question": "Why does the audio suggest a crowd environment?",
+      "answer": "crowd environment",
+      "evidence": "The audio contains 3 crowd-related events.",
+      "set": "train",
+      "audio_index": 1,
+      "audio_filename": "daqa_local_000001.wav"
+    },
+    {
+      "question_type": "what",
+      "question": "What sound occurs first in the audio?",
+      "answer": "crowd babbling",
+      "set": "train",
+      "audio_index": 2,
+      "audio_filename": "daqa_local_000002.wav"
+    },
+    {
+      "question_type": "what",
+      "question": "What sound occurs last in the audio?",
+      "answer": "crowd rioting",
+      "set": "train",
+      "audio_index": 2,
+      "audio_filename": "daqa_local_000002.wav"
+    },
+    {
+      "question_type": "counting",
+      "question": "How many crowd events occur in the audio?",
+      "answer": "7",
+      "set": "train",
+      "audio_index": 2,
+      "audio_filename": "daqa_local_000002.wav"
+    },
+    {
+      "question_type": "counting",
+      "question": "How many human events occur in the audio?",
+      "answer": "1",
+      "set": "train",
+      "audio_index": 2,
+      "audio_filename": "daqa_local_000002.wav"
+    },
+    {
+      "question_type": "temporal",
+      "question": "What happens immediately after the crowd babbling?",
+      "answer": "crowd babbling",
+      "set": "train",
+      "audio_index": 2,
+      "audio_filename": "daqa_local_000002.wav"
+    },
+    {
+      "question_type": "temporal",
+      "question": "What happens immediately after the crowd babbling?",
+      "answer": "human whistling",
+      "set": "train",
+      "audio_index": 2,
+      "audio_filename": "daqa_local_000002.wav"
+    },
+    {
+      "question_type": "temporal",
+      "question": "What happens immediately after the human whistling?",
+      "answer": "crowd babbling",
+      "set": "train",
+      "audio_index": 2,
+      "audio_filename": "daqa_local_000002.wav"
+    },
+    {
+      "question_type": "temporal",
+      "question": "What happens immediately after the crowd babbling?",
+      "answer": "crowd rioting",
+      "set": "train",
+      "audio_index": 2,
+      "audio_filename": "daqa_local_000002.wav"
+    },
+    {
+      "question_type": "temporal",
+      "question": "What happens immediately after the crowd rioting?",
+      "answer": "crowd babbling",
+      "set": "train",
+      "audio_index": 2,
+      "audio_filename": "daqa_local_000002.wav"
+    },
+    {
+      "question_type": "temporal",
+      "question": "What happens immediately after the crowd babbling?",
+      "answer": "crowd applauding",
+      "set": "train",
+      "audio_index": 2,
+      "audio_filename": "daqa_local_000002.wav"
+    },
+    {
+      "question_type": "temporal",
+      "question": "What happens immediately after the crowd applauding?",
+      "answer": "crowd rioting",
+      "set": "train",
+      "audio_index": 2,
+      "audio_filename": "daqa_local_000002.wav"
+    },
+    {
+      "question_type": "causal",
+      "question_template": "background_environment",
+      "question": "Why does the audio suggest that a background environment is present?",
+      "answer": "background environment",
+      "evidence": "Background sound layer: background_1.",
+      "set": "train",
+      "audio_index": 2,
+      "audio_filename": "daqa_local_000002.wav"
+    },
+    {
+      "question_type": "causal",
+      "question_template": "crowd_environment",
+      "question": "Why does the audio suggest a crowd environment?",
+      "answer": "crowd environment",
+      "evidence": "The audio contains 7 crowd-related events.",
+      "set": "train",
+      "audio_index": 2,
+      "audio_filename": "daqa_local_000002.wav"
+    },
+    {
+      "question_type": "what",
+      "question": "What sound occurs first in the audio?",
+      "answer": "door shutting",
+      "set": "train",
+      "audio_index": 3,
+      "audio_filename": "daqa_local_000003.wav"
+    },
+    {
+      "question_type": "what",
+      "question": "What sound occurs last in the audio?",
+      "answer": "phone ringing",
+      "set": "train",
+      "audio_index": 3,
+      "audio_filename": "daqa_local_000003.wav"
+    },
+    {
+      "question_type": "counting",
+      "question": "How many crowd events occur in the audio?",
+      "answer": "3",
+      "set": "train",
+      "audio_index": 3,
+      "audio_filename": "daqa_local_000003.wav"
+    },
+    {
+      "question_type": "counting",
+      "question": "How many door events occur in the audio?",
+      "answer": "3",
+      "set": "train",
+      "audio_index": 3,
+      "audio_filename": "daqa_local_000003.wav"
+    },
+    {
+      "question_type": "counting",
+      "question": "How many phone events occur in the audio?",
+      "answer": "1",
+      "set": "train",
+      "audio_index": 3,
+      "audio_filename": "daqa_local_000003.wav"
+    },
+    {
+      "question_type": "temporal",
+      "question": "What happens immediately after the door shutting?",
+      "answer": "crowd clapping",
+      "set": "train",
+      "audio_index": 3,
+      "audio_filename": "daqa_local_000003.wav"
+    },
+    {
+      "question_type": "temporal",
+      "question": "What happens immediately after the crowd clapping?",
+      "answer": "door closing",
+      "set": "train",
+      "audio_index": 3,
+      "audio_filename": "daqa_local_000003.wav"
+    },
+    {
+      "question_type": "temporal",
+      "question": "What happens immediately after the door closing?",
+      "answer": "door shutting",
+      "set": "train",
+      "audio_index": 3,
+      "audio_filename": "daqa_local_000003.wav"
+    },
+    {
+      "question_type": "temporal",
+      "question": "What happens immediately after the door shutting?",
+      "answer": "crowd making noise",
+      "set": "train",
+      "audio_index": 3,
+      "audio_filename": "daqa_local_000003.wav"
+    },
+    {
+      "question_type": "temporal",
+      "question": "What happens immediately after the crowd making noise?",
+      "answer": "crowd making noise",
+      "set": "train",
+      "audio_index": 3,
+      "audio_filename": "daqa_local_000003.wav"
+    },
+    {
+      "question_type": "temporal",
+      "question": "What happens immediately after the crowd making noise?",
+      "answer": "phone ringing",
+      "set": "train",
+      "audio_index": 3,
+      "audio_filename": "daqa_local_000003.wav"
+    },
+    {
+      "question_type": "causal",
+      "question_template": "crowd_environment",
+      "question": "Why does the audio suggest a crowd environment?",
+      "answer": "crowd environment",
+      "evidence": "The audio contains 3 crowd-related events.",
+      "set": "train",
+      "audio_index": 3,
+      "audio_filename": "daqa_local_000003.wav"
+    },
+    {
+      "question_type": "what",
+      "question": "What sound occurs first in the audio?",
+      "answer": "crowd rioting",
+      "set": "train",
+      "audio_index": 4,
+      "audio_filename": "daqa_local_000004.wav"
+    },
+    {
+      "question_type": "what",
+      "question": "What sound occurs last in the audio?",
+      "answer": "crowd rioting",
+      "set": "train",
+      "audio_index": 4,
+      "audio_filename": "daqa_local_000004.wav"
+    },
+    {
+      "question_type": "counting",
+      "question": "How many crowd events occur in the audio?",
+      "answer": "3",
+      "set": "train",
+      "audio_index": 4,
+      "audio_filename": "daqa_local_000004.wav"
+    },
+    {
+      "question_type": "counting",
+      "question": "How many door events occur in the audio?",
+      "answer": "2",
+      "set": "train",
+      "audio_index": 4,
+      "audio_filename": "daqa_local_000004.wav"
+    },
+    {
+      "question_type": "counting",
+      "question": "How many human events occur in the audio?",
+      "answer": "2",
+      "set": "train",
+      "audio_index": 4,
+      "audio_filename": "daqa_local_000004.wav"
+    },
+    {
+      "question_type": "temporal",
+      "question": "What happens immediately after the crowd rioting?",
+      "answer": "human whistling",
+      "set": "train",
+      "audio_index": 4,
+      "audio_filename": "daqa_local_000004.wav"
+    },
+    {
+      "question_type": "temporal",
+      "question": "What happens immediately after the human whistling?",
+      "answer": "crowd babbling",
+      "set": "train",
+      "audio_index": 4,
+      "audio_filename": "daqa_local_000004.wav"
+    },
+    {
+      "question_type": "temporal",
+      "question": "What happens immediately after the crowd babbling?",
+      "answer": "door slamming",
+      "set": "train",
+      "audio_index": 4,
+      "audio_filename": "daqa_local_000004.wav"
+    },
+    {
+      "question_type": "temporal",
+      "question": "What happens immediately after the door slamming?",
+      "answer": "door closing",
+      "set": "train",
+      "audio_index": 4,
+      "audio_filename": "daqa_local_000004.wav"
+    },
+    {
+      "question_type": "temporal",
+      "question": "What happens immediately after the door closing?",
+      "answer": "human whistling",
+      "set": "train",
+      "audio_index": 4,
+      "audio_filename": "daqa_local_000004.wav"
+    },
+    {
+      "question_type": "temporal",
+      "question": "What happens immediately after the human whistling?",
+      "answer": "crowd rioting",
+      "set": "train",
+      "audio_index": 4,
+      "audio_filename": "daqa_local_000004.wav"
+    },
+    {
+      "question_type": "causal",
+      "question_template": "crowd_environment",
+      "question": "Why does the audio suggest a crowd environment?",
+      "answer": "crowd environment",
+      "evidence": "The audio contains 3 crowd-related events.",
+      "set": "train",
+      "audio_index": 4,
+      "audio_filename": "daqa_local_000004.wav"
+    },
+    {
+      "question_type": "what",
+      "question": "What sound occurs first in the audio?",
+      "answer": "phone ringing",
+      "set": "train",
+      "audio_index": 5,
+      "audio_filename": "daqa_local_000005.wav"
+    },
+    {
+      "question_type": "what",
+      "question": "What sound occurs last in the audio?",
+      "answer": "door closing",
+      "set": "train",
+      "audio_index": 5,
+      "audio_filename": "daqa_local_000005.wav"
+    },
+    {
+      "question_type": "counting",
+      "question": "How many crowd events occur in the audio?",
+      "answer": "2",
+      "set": "train",
+      "audio_index": 5,
+      "audio_filename": "daqa_local_000005.wav"
+    },
+    {
+      "question_type": "counting",
+      "question": "How many door events occur in the audio?",
+      "answer": "2",
+      "set": "train",
+      "audio_index": 5,
+      "audio_filename": "daqa_local_000005.wav"
+    },
+    {
+      "question_type": "counting",
+      "question": "How many phone events occur in the audio?",
+      "answer": "1",
+      "set": "train",
+      "audio_index": 5,
+      "audio_filename": "daqa_local_000005.wav"
+    },
+    {
+      "question_type": "temporal",
+      "question": "What happens immediately after the phone ringing?",
+      "answer": "crowd rioting",
+      "set": "train",
+      "audio_index": 5,
+      "audio_filename": "daqa_local_000005.wav"
+    },
+    {
+      "question_type": "temporal",
+      "question": "What happens immediately after the crowd rioting?",
+      "answer": "crowd rioting",
+      "set": "train",
+      "audio_index": 5,
+      "audio_filename": "daqa_local_000005.wav"
+    },
+    {
+      "question_type": "temporal",
+      "question": "What happens immediately after the crowd rioting?",
+      "answer": "door shutting",
+      "set": "train",
+      "audio_index": 5,
+      "audio_filename": "daqa_local_000005.wav"
+    },
+    {
+      "question_type": "temporal",
+      "question": "What happens immediately after the door shutting?",
+      "answer": "door closing",
+      "set": "train",
+      "audio_index": 5,
+      "audio_filename": "daqa_local_000005.wav"
+    },
+    {
+      "question_type": "causal",
+      "question_template": "background_environment",
+      "question": "Why does the audio suggest that a background environment is present?",
+      "answer": "background environment",
+      "evidence": "Background sound layer: background_7.",
+      "set": "train",
+      "audio_index": 5,
+      "audio_filename": "daqa_local_000005.wav"
+    },
+    {
+      "question_type": "causal",
+      "question_template": "crowd_environment",
+      "question": "Why does the audio suggest a crowd environment?",
+      "answer": "crowd environment",
+      "evidence": "The audio contains 2 crowd-related events.",
+      "set": "train",
+      "audio_index": 5,
+      "audio_filename": "daqa_local_000005.wav"
+    },
+    {
+      "question_type": "what",
+      "question": "What sound occurs first in the audio?",
+      "answer": "human whistling",
+      "set": "train",
+      "audio_index": 6,
+      "audio_filename": "daqa_local_000006.wav"
+    },
+    {
+      "question_type": "what",
+      "question": "What sound occurs last in the audio?",
+      "answer": "crowd babbling",
+      "set": "train",
+      "audio_index": 6,
+      "audio_filename": "daqa_local_000006.wav"
+    },
+    {
+      "question_type": "counting",
+      "question": "How many crowd events occur in the audio?",
+      "answer": "3",
+      "set": "train",
+      "audio_index": 6,
+      "audio_filename": "daqa_local_000006.wav"
+    },
+    {
+      "question_type": "counting",
+      "question": "How many door events occur in the audio?",
+      "answer": "2",
+      "set": "train",
+      "audio_index": 6,
+      "audio_filename": "daqa_local_000006.wav"
+    },
+    {
+      "question_type": "counting",
+      "question": "How many human events occur in the audio?",
+      "answer": "1",
+      "set": "train",
+      "audio_index": 6,
+      "audio_filename": "daqa_local_000006.wav"
+    },
+    {
+      "question_type": "temporal",
+      "question": "What happens immediately after the human whistling?",
+      "answer": "crowd applauding",
+      "set": "train",
+      "audio_index": 6,
+      "audio_filename": "daqa_local_000006.wav"
+    },
+    {
+      "question_type": "temporal",
+      "question": "What happens immediately after the crowd applauding?",
+      "answer": "crowd applauding",
+      "set": "train",
+      "audio_index": 6,
+      "audio_filename": "daqa_local_000006.wav"
+    },
+    {
+      "question_type": "temporal",
+      "question": "What happens immediately after the crowd applauding?",
+      "answer": "door shutting",
+      "set": "train",
+      "audio_index": 6,
+      "audio_filename": "daqa_local_000006.wav"
+    },
+    {
+      "question_type": "temporal",
+      "question": "What happens immediately after the door shutting?",
+      "answer": "door closing",
+      "set": "train",
+      "audio_index": 6,
+      "audio_filename": "daqa_local_000006.wav"
+    },
+    {
+      "question_type": "temporal",
+      "question": "What happens immediately after the door closing?",
+      "answer": "crowd babbling",
+      "set": "train",
+      "audio_index": 6,
+      "audio_filename": "daqa_local_000006.wav"
+    },
+    {
+      "question_type": "causal",
+      "question_template": "background_environment",
+      "question": "Why does the audio suggest that a background environment is present?",
+      "answer": "background environment",
+      "evidence": "Background sound layer: background_7.",
+      "set": "train",
+      "audio_index": 6,
+      "audio_filename": "daqa_local_000006.wav"
+    },
+    {
+      "question_type": "causal",
+      "question_template": "crowd_environment",
+      "question": "Why does the audio suggest a crowd environment?",
+      "answer": "crowd environment",
+      "evidence": "The audio contains 3 crowd-related events.",
+      "set": "train",
+      "audio_index": 6,
+      "audio_filename": "daqa_local_000006.wav"
+    },
+    {
+      "question_type": "what",
+      "question": "What sound occurs first in the audio?",
+      "answer": "crowd babbling",
+      "set": "train",
+      "audio_index": 7,
+      "audio_filename": "daqa_local_000007.wav"
+    },
+    {
+      "question_type": "what",
+      "question": "What sound occurs last in the audio?",
+      "answer": "crowd rioting",
+      "set": "train",
+      "audio_index": 7,
+      "audio_filename": "daqa_local_000007.wav"
+    },
+    {
+      "question_type": "counting",
+      "question": "How many crowd events occur in the audio?",
+      "answer": "5",
+      "set": "train",
+      "audio_index": 7,
+      "audio_filename": "daqa_local_000007.wav"
+    },
+    {
+      "question_type": "counting",
+      "question": "How many door events occur in the audio?",
+      "answer": "2",
+      "set": "train",
+      "audio_index": 7,
+      "audio_filename": "daqa_local_000007.wav"
+    },
+    {
+      "question_type": "counting",
+      "question": "How many human events occur in the audio?",
+      "answer": "1",
+      "set": "train",
+      "audio_index": 7,
+      "audio_filename": "daqa_local_000007.wav"
+    },
+    {
+      "question_type": "temporal",
+      "question": "What happens immediately after the crowd babbling?",
+      "answer": "crowd babbling",
+      "set": "train",
+      "audio_index": 7,
+      "audio_filename": "daqa_local_000007.wav"
+    },
+    {
+      "question_type": "temporal",
+      "question": "What happens immediately after the crowd babbling?",
+      "answer": "door shutting",
+      "set": "train",
+      "audio_index": 7,
+      "audio_filename": "daqa_local_000007.wav"
+    },
+    {
+      "question_type": "temporal",
+      "question": "What happens immediately after the door shutting?",
+      "answer": "crowd clapping",
+      "set": "train",
+      "audio_index": 7,
+      "audio_filename": "daqa_local_000007.wav"
+    },
+    {
+      "question_type": "temporal",
+      "question": "What happens immediately after the crowd clapping?",
+      "answer": "door shutting",
+      "set": "train",
+      "audio_index": 7,
+      "audio_filename": "daqa_local_000007.wav"
+    },
+    {
+      "question_type": "temporal",
+      "question": "What happens immediately after the door shutting?",
+      "answer": "crowd babbling",
+      "set": "train",
+      "audio_index": 7,
+      "audio_filename": "daqa_local_000007.wav"
+    },
+    {
+      "question_type": "temporal",
+      "question": "What happens immediately after the crowd babbling?",
+      "answer": "human whistling",
+      "set": "train",
+      "audio_index": 7,
+      "audio_filename": "daqa_local_000007.wav"
+    },
+    {
+      "question_type": "temporal",
+      "question": "What happens immediately after the human whistling?",
+      "answer": "crowd rioting",
+      "set": "train",
+      "audio_index": 7,
+      "audio_filename": "daqa_local_000007.wav"
+    },
+    {
+      "question_type": "causal",
+      "question_template": "background_environment",
+      "question": "Why does the audio suggest that a background environment is present?",
+      "answer": "background environment",
+      "evidence": "Background sound layer: background_5.",
+      "set": "train",
+      "audio_index": 7,
+      "audio_filename": "daqa_local_000007.wav"
+    },
+    {
+      "question_type": "causal",
+      "question_template": "crowd_environment",
+      "question": "Why does the audio suggest a crowd environment?",
+      "answer": "crowd environment",
+      "evidence": "The audio contains 5 crowd-related events.",
+      "set": "train",
+      "audio_index": 7,
+      "audio_filename": "daqa_local_000007.wav"
+    },
+    {
+      "question_type": "what",
+      "question": "What sound occurs first in the audio?",
+      "answer": "crowd babbling",
+      "set": "train",
+      "audio_index": 8,
+      "audio_filename": "daqa_local_000008.wav"
+    },
+    {
+      "question_type": "what",
+      "question": "What sound occurs last in the audio?",
+      "answer": "phone ringing",
+      "set": "train",
+      "audio_index": 8,
+      "audio_filename": "daqa_local_000008.wav"
+    },
+    {
+      "question_type": "counting",
+      "question": "How many crowd events occur in the audio?",
+      "answer": "3",
+      "set": "train",
+      "audio_index": 8,
+      "audio_filename": "daqa_local_000008.wav"
+    },
+    {
+      "question_type": "counting",
+      "question": "How many door events occur in the audio?",
+      "answer": "2",
+      "set": "train",
+      "audio_index": 8,
+      "audio_filename": "daqa_local_000008.wav"
+    },
+    {
+      "question_type": "counting",
+      "question": "How many human events occur in the audio?",
+      "answer": "1",
+      "set": "train",
+      "audio_index": 8,
+      "audio_filename": "daqa_local_000008.wav"
+    },
+    {
+      "question_type": "counting",
+      "question": "How many phone events occur in the audio?",
+      "answer": "2",
+      "set": "train",
+      "audio_index": 8,
+      "audio_filename": "daqa_local_000008.wav"
+    },
+    {
+      "question_type": "temporal",
+      "question": "What happens immediately after the crowd babbling?",
+      "answer": "phone ringing",
+      "set": "train",
+      "audio_index": 8,
+      "audio_filename": "daqa_local_000008.wav"
+    },
+    {
+      "question_type": "temporal",
+      "question": "What happens immediately after the phone ringing?",
+      "answer": "crowd babbling",
+      "set": "train",
+      "audio_index": 8,
+      "audio_filename": "daqa_local_000008.wav"
+    },
+    {
+      "question_type": "temporal",
+      "question": "What happens immediately after the crowd babbling?",
+      "answer": "door shutting",
+      "set": "train",
+      "audio_index": 8,
+      "audio_filename": "daqa_local_000008.wav"
+    },
+    {
+      "question_type": "temporal",
+      "question": "What happens immediately after the door shutting?",
+      "answer": "door shutting",
+      "set": "train",
+      "audio_index": 8,
+      "audio_filename": "daqa_local_000008.wav"
+    },
+    {
+      "question_type": "temporal",
+      "question": "What happens immediately after the door shutting?",
+      "answer": "human whistling",
+      "set": "train",
+      "audio_index": 8,
+      "audio_filename": "daqa_local_000008.wav"
+    },
+    {
+      "question_type": "temporal",
+      "question": "What happens immediately after the human whistling?",
+      "answer": "crowd applauding",
+      "set": "train",
+      "audio_index": 8,
+      "audio_filename": "daqa_local_000008.wav"
+    },
+    {
+      "question_type": "temporal",
+      "question": "What happens immediately after the crowd applauding?",
+      "answer": "phone ringing",
+      "set": "train",
+      "audio_index": 8,
+      "audio_filename": "daqa_local_000008.wav"
+    },
+    {
+      "question_type": "causal",
+      "question_template": "crowd_environment",
+      "question": "Why does the audio suggest a crowd environment?",
+      "answer": "crowd environment",
+      "evidence": "The audio contains 3 crowd-related events.",
+      "set": "train",
+      "audio_index": 8,
+      "audio_filename": "daqa_local_000008.wav"
+    },
+    {
+      "question_type": "what",
+      "question": "What sound occurs first in the audio?",
+      "answer": "crowd making noise",
+      "set": "train",
+      "audio_index": 9,
+      "audio_filename": "daqa_local_000009.wav"
+    },
+    {
+      "question_type": "what",
+      "question": "What sound occurs last in the audio?",
+      "answer": "door closing",
+      "set": "train",
+      "audio_index": 9,
+      "audio_filename": "daqa_local_000009.wav"
+    },
+    {
+      "question_type": "counting",
+      "question": "How many crowd events occur in the audio?",
+      "answer": "3",
+      "set": "train",
+      "audio_index": 9,
+      "audio_filename": "daqa_local_000009.wav"
+    },
+    {
+      "question_type": "counting",
+      "question": "How many door events occur in the audio?",
+      "answer": "2",
+      "set": "train",
+      "audio_index": 9,
+      "audio_filename": "daqa_local_000009.wav"
+    },
+    {
+      "question_type": "temporal",
+      "question": "What happens immediately after the crowd making noise?",
+      "answer": "door shutting",
+      "set": "train",
+      "audio_index": 9,
+      "audio_filename": "daqa_local_000009.wav"
+    },
+    {
+      "question_type": "temporal",
+      "question": "What happens immediately after the door shutting?",
+      "answer": "crowd babbling",
+      "set": "train",
+      "audio_index": 9,
+      "audio_filename": "daqa_local_000009.wav"
+    },
+    {
+      "question_type": "temporal",
+      "question": "What happens immediately after the crowd babbling?",
+      "answer": "crowd rioting",
+      "set": "train",
+      "audio_index": 9,
+      "audio_filename": "daqa_local_000009.wav"
+    },
+    {
+      "question_type": "temporal",
+      "question": "What happens immediately after the crowd rioting?",
+      "answer": "door closing",
+      "set": "train",
+      "audio_index": 9,
+      "audio_filename": "daqa_local_000009.wav"
+    },
+    {
+      "question_type": "causal",
+      "question_template": "crowd_environment",
+      "question": "Why does the audio suggest a crowd environment?",
+      "answer": "crowd environment",
+      "evidence": "The audio contains 3 crowd-related events.",
+      "set": "train",
+      "audio_index": 9,
+      "audio_filename": "daqa_local_000009.wav"
+    },
+    {
+      "question_type": "what",
+      "question": "What sound occurs first in the audio?",
+      "answer": "crowd rioting",
+      "set": "train",
+      "audio_index": 10,
+      "audio_filename": "daqa_local_000010.wav"
+    },
+    {
+      "question_type": "what",
+      "question": "What sound occurs last in the audio?",
+      "answer": "door closing",
+      "set": "train",
+      "audio_index": 10,
+      "audio_filename": "daqa_local_000010.wav"
+    },
+    {
+      "question_type": "counting",
+      "question": "How many crowd events occur in the audio?",
+      "answer": "3",
+      "set": "train",
+      "audio_index": 10,
+      "audio_filename": "daqa_local_000010.wav"
+    },
+    {
+      "question_type": "counting",
+      "question": "How many door events occur in the audio?",
+      "answer": "1",
+      "set": "train",
+      "audio_index": 10,
+      "audio_filename": "daqa_local_000010.wav"
+    },
+    {
+      "question_type": "counting",
+      "question": "How many phone events occur in the audio?",
+      "answer": "1",
+      "set": "train",
+      "audio_index": 10,
+      "audio_filename": "daqa_local_000010.wav"
+    },
+    {
+      "question_type": "temporal",
+      "question": "What happens immediately after the crowd rioting?",
+      "answer": "crowd babbling",
+      "set": "train",
+      "audio_index": 10,
+      "audio_filename": "daqa_local_000010.wav"
+    },
+    {
+      "question_type": "temporal",
+      "question": "What happens immediately after the crowd babbling?",
+      "answer": "crowd making noise",
+      "set": "train",
+      "audio_index": 10,
+      "audio_filename": "daqa_local_000010.wav"
+    },
+    {
+      "question_type": "temporal",
+      "question": "What happens immediately after the crowd making noise?",
+      "answer": "phone ringing",
+      "set": "train",
+      "audio_index": 10,
+      "audio_filename": "daqa_local_000010.wav"
+    },
+    {
+      "question_type": "temporal",
+      "question": "What happens immediately after the phone ringing?",
+      "answer": "door closing",
+      "set": "train",
+      "audio_index": 10,
+      "audio_filename": "daqa_local_000010.wav"
+    },
+    {
+      "question_type": "causal",
+      "question_template": "background_environment",
+      "question": "Why does the audio suggest that a background environment is present?",
+      "answer": "background environment",
+      "evidence": "Background sound layer: background_9.",
+      "set": "train",
+      "audio_index": 10,
+      "audio_filename": "daqa_local_000010.wav"
+    },
+    {
+      "question_type": "causal",
+      "question_template": "crowd_environment",
+      "question": "Why does the audio suggest a crowd environment?",
+      "answer": "crowd environment",
+      "evidence": "The audio contains 3 crowd-related events.",
+      "set": "train",
+      "audio_index": 10,
+      "audio_filename": "daqa_local_000010.wav"
+    },
+    {
+      "question_type": "what",
+      "question": "What sound occurs first in the audio?",
+      "answer": "crowd rioting",
+      "set": "train",
+      "audio_index": 11,
+      "audio_filename": "daqa_local_000011.wav"
+    },
+    {
+      "question_type": "what",
+      "question": "What sound occurs last in the audio?",
+      "answer": "crowd rioting",
+      "set": "train",
+      "audio_index": 11,
+      "audio_filename": "daqa_local_000011.wav"
+    },
+    {
+      "question_type": "counting",
+      "question": "How many crowd events occur in the audio?",
+      "answer": "7",
+      "set": "train",
+      "audio_index": 11,
+      "audio_filename": "daqa_local_000011.wav"
+    },
+    {
+      "question_type": "counting",
+      "question": "How many door events occur in the audio?",
+      "answer": "1",
+      "set": "train",
+      "audio_index": 11,
+      "audio_filename": "daqa_local_000011.wav"
+    },
+    {
+      "question_type": "temporal",
+      "question": "What happens immediately after the crowd rioting?",
+      "answer": "crowd making noise",
+      "set": "train",
+      "audio_index": 11,
+      "audio_filename": "daqa_local_000011.wav"
+    },
+    {
+      "question_type": "temporal",
+      "question": "What happens immediately after the crowd making noise?",
+      "answer": "crowd making noise",
+      "set": "train",
+      "audio_index": 11,
+      "audio_filename": "daqa_local_000011.wav"
+    },
+    {
+      "question_type": "temporal",
+      "question": "What happens immediately after the crowd making noise?",
+      "answer": "crowd making noise",
+      "set": "train",
+      "audio_index": 11,
+      "audio_filename": "daqa_local_000011.wav"
+    },
+    {
+      "question_type": "temporal",
+      "question": "What happens immediately after the crowd making noise?",
+      "answer": "crowd clapping",
+      "set": "train",
+      "audio_index": 11,
+      "audio_filename": "daqa_local_000011.wav"
+    },
+    {
+      "question_type": "temporal",
+      "question": "What happens immediately after the crowd clapping?",
+      "answer": "door shutting",
+      "set": "train",
+      "audio_index": 11,
+      "audio_filename": "daqa_local_000011.wav"
+    },
+    {
+      "question_type": "temporal",
+      "question": "What happens immediately after the door shutting?",
+      "answer": "crowd babbling",
+      "set": "train",
+      "audio_index": 11,
+      "audio_filename": "daqa_local_000011.wav"
+    },
+    {
+      "question_type": "temporal",
+      "question": "What happens immediately after the crowd babbling?",
+      "answer": "crowd rioting",
+      "set": "train",
+      "audio_index": 11,
+      "audio_filename": "daqa_local_000011.wav"
+    },
+    {
+      "question_type": "causal",
+      "question_template": "crowd_environment",
+      "question": "Why does the audio suggest a crowd environment?",
+      "answer": "crowd environment",
+      "evidence": "The audio contains 7 crowd-related events.",
+      "set": "train",
+      "audio_index": 11,
+      "audio_filename": "daqa_local_000011.wav"
+    },
+    {
+      "question_type": "what",
+      "question": "What sound occurs first in the audio?",
+      "answer": "phone ringing",
+      "set": "train",
+      "audio_index": 12,
+      "audio_filename": "daqa_local_000012.wav"
+    },
+    {
+      "question_type": "what",
+      "question": "What sound occurs last in the audio?",
+      "answer": "human whistling",
+      "set": "train",
+      "audio_index": 12,
+      "audio_filename": "daqa_local_000012.wav"
+    },
+    {
+      "question_type": "counting",
+      "question": "How many door events occur in the audio?",
+      "answer": "1",
+      "set": "train",
+      "audio_index": 12,
+      "audio_filename": "daqa_local_000012.wav"
+    },
+    {
+      "question_type": "counting",
+      "question": "How many human events occur in the audio?",
+      "answer": "1",
+      "set": "train",
+      "audio_index": 12,
+      "audio_filename": "daqa_local_000012.wav"
+    },
+    {
+      "question_type": "counting",
+      "question": "How many phone events occur in the audio?",
+      "answer": "3",
+      "set": "train",
+      "audio_index": 12,
+      "audio_filename": "daqa_local_000012.wav"
+    },
+    {
+      "question_type": "temporal",
+      "question": "What happens immediately after the phone ringing?",
+      "answer": "phone ringing",
+      "set": "train",
+      "audio_index": 12,
+      "audio_filename": "daqa_local_000012.wav"
+    },
+    {
+      "question_type": "temporal",
+      "question": "What happens immediately after the phone ringing?",
+      "answer": "door slamming",
+      "set": "train",
+      "audio_index": 12,
+      "audio_filename": "daqa_local_000012.wav"
+    },
+    {
+      "question_type": "temporal",
+      "question": "What happens immediately after the door slamming?",
+      "answer": "phone ringing",
+      "set": "train",
+      "audio_index": 12,
+      "audio_filename": "daqa_local_000012.wav"
+    },
+    {
+      "question_type": "temporal",
+      "question": "What happens immediately after the phone ringing?",
+      "answer": "human whistling",
+      "set": "train",
+      "audio_index": 12,
+      "audio_filename": "daqa_local_000012.wav"
+    },
+    {
+      "question_type": "what",
+      "question": "What sound occurs first in the audio?",
+      "answer": "phone ringing",
+      "set": "train",
+      "audio_index": 13,
+      "audio_filename": "daqa_local_000013.wav"
+    },
+    {
+      "question_type": "what",
+      "question": "What sound occurs last in the audio?",
+      "answer": "crowd babbling",
+      "set": "train",
+      "audio_index": 13,
+      "audio_filename": "daqa_local_000013.wav"
+    },
+    {
+      "question_type": "counting",
+      "question": "How many crowd events occur in the audio?",
+      "answer": "2",
+      "set": "train",
+      "audio_index": 13,
+      "audio_filename": "daqa_local_000013.wav"
+    },
+    {
+      "question_type": "counting",
+      "question": "How many doorbell events occur in the audio?",
+      "answer": "1",
+      "set": "train",
+      "audio_index": 13,
+      "audio_filename": "daqa_local_000013.wav"
+    },
+    {
+      "question_type": "counting",
+      "question": "How many phone events occur in the audio?",
+      "answer": "2",
+      "set": "train",
+      "audio_index": 13,
+      "audio_filename": "daqa_local_000013.wav"
+    },
+    {
+      "question_type": "temporal",
+      "question": "What happens immediately after the phone ringing?",
+      "answer": "doorbell ringing",
+      "set": "train",
+      "audio_index": 13,
+      "audio_filename": "daqa_local_000013.wav"
+    },
+    {
+      "question_type": "temporal",
+      "question": "What happens immediately after the doorbell ringing?",
+      "answer": "phone ringing",
+      "set": "train",
+      "audio_index": 13,
+      "audio_filename": "daqa_local_000013.wav"
+    },
+    {
+      "question_type": "temporal",
+      "question": "What happens immediately after the phone ringing?",
+      "answer": "crowd making noise",
+      "set": "train",
+      "audio_index": 13,
+      "audio_filename": "daqa_local_000013.wav"
+    },
+    {
+      "question_type": "temporal",
+      "question": "What happens immediately after the crowd making noise?",
+      "answer": "crowd babbling",
+      "set": "train",
+      "audio_index": 13,
+      "audio_filename": "daqa_local_000013.wav"
+    },
+    {
+      "question_type": "causal",
+      "question_template": "crowd_environment",
+      "question": "Why does the audio suggest a crowd environment?",
+      "answer": "crowd environment",
+      "evidence": "The audio contains 2 crowd-related events.",
+      "set": "train",
+      "audio_index": 13,
+      "audio_filename": "daqa_local_000013.wav"
+    },
+    {
+      "question_type": "what",
+      "question": "What sound occurs first in the audio?",
+      "answer": "crowd rioting",
+      "set": "train",
+      "audio_index": 14,
+      "audio_filename": "daqa_local_000014.wav"
+    },
+    {
+      "question_type": "what",
+      "question": "What sound occurs last in the audio?",
+      "answer": "doorbell ringing",
+      "set": "train",
+      "audio_index": 14,
+      "audio_filename": "daqa_local_000014.wav"
+    },
+    {
+      "question_type": "counting",
+      "question": "How many crowd events occur in the audio?",
+      "answer": "5",
+      "set": "train",
+      "audio_index": 14,
+      "audio_filename": "daqa_local_000014.wav"
+    },
+    {
+      "question_type": "counting",
+      "question": "How many doorbell events occur in the audio?",
+      "answer": "2",
+      "set": "train",
+      "audio_index": 14,
+      "audio_filename": "daqa_local_000014.wav"
+    },
+    {
+      "question_type": "counting",
+      "question": "How many human events occur in the audio?",
+      "answer": "1",
+      "set": "train",
+      "audio_index": 14,
+      "audio_filename": "daqa_local_000014.wav"
+    },
+    {
+      "question_type": "temporal",
+      "question": "What happens immediately after the crowd rioting?",
+      "answer": "doorbell ringing",
+      "set": "train",
+      "audio_index": 14,
+      "audio_filename": "daqa_local_000014.wav"
+    },
+    {
+      "question_type": "temporal",
+      "question": "What happens immediately after the doorbell ringing?",
+      "answer": "crowd clapping",
+      "set": "train",
+      "audio_index": 14,
+      "audio_filename": "daqa_local_000014.wav"
+    },
+    {
+      "question_type": "temporal",
+      "question": "What happens immediately after the crowd clapping?",
+      "answer": "crowd making noise",
+      "set": "train",
+      "audio_index": 14,
+      "audio_filename": "daqa_local_000014.wav"
+    },
+    {
+      "question_type": "temporal",
+      "question": "What happens immediately after the crowd making noise?",
+      "answer": "crowd applauding",
+      "set": "train",
+      "audio_index": 14,
+      "audio_filename": "daqa_local_000014.wav"
+    },
+    {
+      "question_type": "temporal",
+      "question": "What happens immediately after the crowd applauding?",
+      "answer": "crowd applauding",
+      "set": "train",
+      "audio_index": 14,
+      "audio_filename": "daqa_local_000014.wav"
+    },
+    {
+      "question_type": "temporal",
+      "question": "What happens immediately after the crowd applauding?",
+      "answer": "human whistling",
+      "set": "train",
+      "audio_index": 14,
+      "audio_filename": "daqa_local_000014.wav"
+    },
+    {
+      "question_type": "temporal",
+      "question": "What happens immediately after the human whistling?",
+      "answer": "doorbell ringing",
+      "set": "train",
+      "audio_index": 14,
+      "audio_filename": "daqa_local_000014.wav"
+    },
+    {
+      "question_type": "causal",
+      "question_template": "background_environment",
+      "question": "Why does the audio suggest that a background environment is present?",
+      "answer": "background environment",
+      "evidence": "Background sound layer: background_5.",
+      "set": "train",
+      "audio_index": 14,
+      "audio_filename": "daqa_local_000014.wav"
+    },
+    {
+      "question_type": "causal",
+      "question_template": "crowd_environment",
+      "question": "Why does the audio suggest a crowd environment?",
+      "answer": "crowd environment",
+      "evidence": "The audio contains 5 crowd-related events.",
+      "set": "train",
+      "audio_index": 14,
+      "audio_filename": "daqa_local_000014.wav"
+    },
+    {
+      "question_type": "what",
+      "question": "What sound occurs first in the audio?",
+      "answer": "door shutting",
+      "set": "train",
+      "audio_index": 15,
+      "audio_filename": "daqa_local_000015.wav"
+    },
+    {
+      "question_type": "what",
+      "question": "What sound occurs last in the audio?",
+      "answer": "crowd babbling",
+      "set": "train",
+      "audio_index": 15,
+      "audio_filename": "daqa_local_000015.wav"
+    },
+    {
+      "question_type": "counting",
+      "question": "How many crowd events occur in the audio?",
+      "answer": "4",
+      "set": "train",
+      "audio_index": 15,
+      "audio_filename": "daqa_local_000015.wav"
+    },
+    {
+      "question_type": "counting",
+      "question": "How many door events occur in the audio?",
+      "answer": "3",
+      "set": "train",
+      "audio_index": 15,
+      "audio_filename": "daqa_local_000015.wav"
+    },
+    {
+      "question_type": "counting",
+      "question": "How many doorbell events occur in the audio?",
+      "answer": "1",
+      "set": "train",
+      "audio_index": 15,
+      "audio_filename": "daqa_local_000015.wav"
+    },
+    {
+      "question_type": "temporal",
+      "question": "What happens immediately after the door shutting?",
+      "answer": "crowd babbling",
+      "set": "train",
+      "audio_index": 15,
+      "audio_filename": "daqa_local_000015.wav"
+    },
+    {
+      "question_type": "temporal",
+      "question": "What happens immediately after the crowd babbling?",
+      "answer": "doorbell ringing",
+      "set": "train",
+      "audio_index": 15,
+      "audio_filename": "daqa_local_000015.wav"
+    },
+    {
+      "question_type": "temporal",
+      "question": "What happens immediately after the doorbell ringing?",
+      "answer": "door shutting",
+      "set": "train",
+      "audio_index": 15,
+      "audio_filename": "daqa_local_000015.wav"
+    },
+    {
+      "question_type": "temporal",
+      "question": "What happens immediately after the door shutting?",
+      "answer": "crowd babbling",
+      "set": "train",
+      "audio_index": 15,
+      "audio_filename": "daqa_local_000015.wav"
+    },
+    {
+      "question_type": "temporal",
+      "question": "What happens immediately after the crowd babbling?",
+      "answer": "door slamming",
+      "set": "train",
+      "audio_index": 15,
+      "audio_filename": "daqa_local_000015.wav"
+    },
+    {
+      "question_type": "temporal",
+      "question": "What happens immediately after the door slamming?",
+      "answer": "crowd rioting",
+      "set": "train",
+      "audio_index": 15,
+      "audio_filename": "daqa_local_000015.wav"
+    },
+    {
+      "question_type": "temporal",
+      "question": "What happens immediately after the crowd rioting?",
+      "answer": "crowd babbling",
+      "set": "train",
+      "audio_index": 15,
+      "audio_filename": "daqa_local_000015.wav"
+    },
+    {
+      "question_type": "causal",
+      "question_template": "crowd_environment",
+      "question": "Why does the audio suggest a crowd environment?",
+      "answer": "crowd environment",
+      "evidence": "The audio contains 4 crowd-related events.",
+      "set": "train",
+      "audio_index": 15,
+      "audio_filename": "daqa_local_000015.wav"
+    },
+    {
+      "question_type": "what",
+      "question": "What sound occurs first in the audio?",
+      "answer": "crowd rioting",
+      "set": "train",
+      "audio_index": 16,
+      "audio_filename": "daqa_local_000016.wav"
+    },
+    {
+      "question_type": "what",
+      "question": "What sound occurs last in the audio?",
+      "answer": "crowd babbling",
+      "set": "train",
+      "audio_index": 16,
+      "audio_filename": "daqa_local_000016.wav"
+    },
+    {
+      "question_type": "counting",
+      "question": "How many crowd events occur in the audio?",
+      "answer": "3",
+      "set": "train",
+      "audio_index": 16,
+      "audio_filename": "daqa_local_000016.wav"
+    },
+    {
+      "question_type": "counting",
+      "question": "How many human events occur in the audio?",
+      "answer": "1",
+      "set": "train",
+      "audio_index": 16,
+      "audio_filename": "daqa_local_000016.wav"
+    },
+    {
+      "question_type": "counting",
+      "question": "How many phone events occur in the audio?",
+      "answer": "1",
+      "set": "train",
+      "audio_index": 16,
+      "audio_filename": "daqa_local_000016.wav"
+    },
+    {
+      "question_type": "temporal",
+      "question": "What happens immediately after the crowd rioting?",
+      "answer": "human whistling",
+      "set": "train",
+      "audio_index": 16,
+      "audio_filename": "daqa_local_000016.wav"
+    },
+    {
+      "question_type": "temporal",
+      "question": "What happens immediately after the human whistling?",
+      "answer": "phone ringing",
+      "set": "train",
+      "audio_index": 16,
+      "audio_filename": "daqa_local_000016.wav"
+    },
+    {
+      "question_type": "temporal",
+      "question": "What happens immediately after the phone ringing?",
+      "answer": "crowd clapping",
+      "set": "train",
+      "audio_index": 16,
+      "audio_filename": "daqa_local_000016.wav"
+    },
+    {
+      "question_type": "temporal",
+      "question": "What happens immediately after the crowd clapping?",
+      "answer": "crowd babbling",
+      "set": "train",
+      "audio_index": 16,
+      "audio_filename": "daqa_local_000016.wav"
+    },
+    {
+      "question_type": "causal",
+      "question_template": "background_environment",
+      "question": "Why does the audio suggest that a background environment is present?",
+      "answer": "background environment",
+      "evidence": "Background sound layer: background_6.",
+      "set": "train",
+      "audio_index": 16,
+      "audio_filename": "daqa_local_000016.wav"
+    },
+    {
+      "question_type": "causal",
+      "question_template": "crowd_environment",
+      "question": "Why does the audio suggest a crowd environment?",
+      "answer": "crowd environment",
+      "evidence": "The audio contains 3 crowd-related events.",
+      "set": "train",
+      "audio_index": 16,
+      "audio_filename": "daqa_local_000016.wav"
+    },
+    {
+      "question_type": "what",
+      "question": "What sound occurs first in the audio?",
+      "answer": "crowd making noise",
+      "set": "train",
+      "audio_index": 17,
+      "audio_filename": "daqa_local_000017.wav"
+    },
+    {
+      "question_type": "what",
+      "question": "What sound occurs last in the audio?",
+      "answer": "crowd rioting",
+      "set": "train",
+      "audio_index": 17,
+      "audio_filename": "daqa_local_000017.wav"
+    },
+    {
+      "question_type": "counting",
+      "question": "How many crowd events occur in the audio?",
+      "answer": "3",
+      "set": "train",
+      "audio_index": 17,
+      "audio_filename": "daqa_local_000017.wav"
+    },
+    {
+      "question_type": "counting",
+      "question": "How many human events occur in the audio?",
+      "answer": "1",
+      "set": "train",
+      "audio_index": 17,
+      "audio_filename": "daqa_local_000017.wav"
+    },
+    {
+      "question_type": "counting",
+      "question": "How many phone events occur in the audio?",
+      "answer": "1",
+      "set": "train",
+      "audio_index": 17,
+      "audio_filename": "daqa_local_000017.wav"
+    },
+    {
+      "question_type": "temporal",
+      "question": "What happens immediately after the crowd making noise?",
+      "answer": "human whistling",
+      "set": "train",
+      "audio_index": 17,
+      "audio_filename": "daqa_local_000017.wav"
+    },
+    {
+      "question_type": "temporal",
+      "question": "What happens immediately after the human whistling?",
+      "answer": "phone ringing",
+      "set": "train",
+      "audio_index": 17,
+      "audio_filename": "daqa_local_000017.wav"
+    },
+    {
+      "question_type": "temporal",
+      "question": "What happens immediately after the phone ringing?",
+      "answer": "crowd babbling",
+      "set": "train",
+      "audio_index": 17,
+      "audio_filename": "daqa_local_000017.wav"
+    },
+    {
+      "question_type": "temporal",
+      "question": "What happens immediately after the crowd babbling?",
+      "answer": "crowd rioting",
+      "set": "train",
+      "audio_index": 17,
+      "audio_filename": "daqa_local_000017.wav"
+    },
+    {
+      "question_type": "causal",
+      "question_template": "background_environment",
+      "question": "Why does the audio suggest that a background environment is present?",
+      "answer": "background environment",
+      "evidence": "Background sound layer: background_2.",
+      "set": "train",
+      "audio_index": 17,
+      "audio_filename": "daqa_local_000017.wav"
+    },
+    {
+      "question_type": "causal",
+      "question_template": "crowd_environment",
+      "question": "Why does the audio suggest a crowd environment?",
+      "answer": "crowd environment",
+      "evidence": "The audio contains 3 crowd-related events.",
+      "set": "train",
+      "audio_index": 17,
+      "audio_filename": "daqa_local_000017.wav"
+    },
+    {
+      "question_type": "what",
+      "question": "What sound occurs first in the audio?",
+      "answer": "crowd clapping",
+      "set": "train",
+      "audio_index": 18,
+      "audio_filename": "daqa_local_000018.wav"
+    },
+    {
+      "question_type": "what",
+      "question": "What sound occurs last in the audio?",
+      "answer": "crowd clapping",
+      "set": "train",
+      "audio_index": 18,
+      "audio_filename": "daqa_local_000018.wav"
+    },
+    {
+      "question_type": "counting",
+      "question": "How many crowd events occur in the audio?",
+      "answer": "4",
+      "set": "train",
+      "audio_index": 18,
+      "audio_filename": "daqa_local_000018.wav"
+    },
+    {
+      "question_type": "counting",
+      "question": "How many door events occur in the audio?",
+      "answer": "1",
+      "set": "train",
+      "audio_index": 18,
+      "audio_filename": "daqa_local_000018.wav"
+    },
+    {
+      "question_type": "temporal",
+      "question": "What happens immediately after the crowd clapping?",
+      "answer": "crowd babbling",
+      "set": "train",
+      "audio_index": 18,
+      "audio_filename": "daqa_local_000018.wav"
+    },
+    {
+      "question_type": "temporal",
+      "question": "What happens immediately after the crowd babbling?",
+      "answer": "crowd babbling",
+      "set": "train",
+      "audio_index": 18,
+      "audio_filename": "daqa_local_000018.wav"
+    },
+    {
+      "question_type": "temporal",
+      "question": "What happens immediately after the crowd babbling?",
+      "answer": "door closing",
+      "set": "train",
+      "audio_index": 18,
+      "audio_filename": "daqa_local_000018.wav"
+    },
+    {
+      "question_type": "temporal",
+      "question": "What happens immediately after the door closing?",
+      "answer": "crowd clapping",
+      "set": "train",
+      "audio_index": 18,
+      "audio_filename": "daqa_local_000018.wav"
+    },
+    {
+      "question_type": "causal",
+      "question_template": "crowd_environment",
+      "question": "Why does the audio suggest a crowd environment?",
+      "answer": "crowd environment",
+      "evidence": "The audio contains 4 crowd-related events.",
+      "set": "train",
+      "audio_index": 18,
+      "audio_filename": "daqa_local_000018.wav"
+    },
+    {
+      "question_type": "what",
+      "question": "What sound occurs first in the audio?",
+      "answer": "crowd babbling",
+      "set": "train",
+      "audio_index": 19,
+      "audio_filename": "daqa_local_000019.wav"
+    },
+    {
+      "question_type": "what",
+      "question": "What sound occurs last in the audio?",
+      "answer": "crowd making noise",
+      "set": "train",
+      "audio_index": 19,
+      "audio_filename": "daqa_local_000019.wav"
+    },
+    {
+      "question_type": "counting",
+      "question": "How many crowd events occur in the audio?",
+      "answer": "7",
+      "set": "train",
+      "audio_index": 19,
+      "audio_filename": "daqa_local_000019.wav"
+    },
+    {
+      "question_type": "temporal",
+      "question": "What happens immediately after the crowd babbling?",
+      "answer": "crowd making noise",
+      "set": "train",
+      "audio_index": 19,
+      "audio_filename": "daqa_local_000019.wav"
+    },
+    {
+      "question_type": "temporal",
+      "question": "What happens immediately after the crowd making noise?",
+      "answer": "crowd making noise",
+      "set": "train",
+      "audio_index": 19,
+      "audio_filename": "daqa_local_000019.wav"
+    },
+    {
+      "question_type": "temporal",
+      "question": "What happens immediately after the crowd making noise?",
+      "answer": "crowd clapping",
+      "set": "train",
+      "audio_index": 19,
+      "audio_filename": "daqa_local_000019.wav"
+    },
+    {
+      "question_type": "temporal",
+      "question": "What happens immediately after the crowd clapping?",
+      "answer": "crowd making noise",
+      "set": "train",
+      "audio_index": 19,
+      "audio_filename": "daqa_local_000019.wav"
+    },
+    {
+      "question_type": "temporal",
+      "question": "What happens immediately after the crowd making noise?",
+      "answer": "crowd making noise",
+      "set": "train",
+      "audio_index": 19,
+      "audio_filename": "daqa_local_000019.wav"
+    },
+    {
+      "question_type": "temporal",
+      "question": "What happens immediately after the crowd making noise?",
+      "answer": "crowd making noise",
+      "set": "train",
+      "audio_index": 19,
+      "audio_filename": "daqa_local_000019.wav"
+    },
+    {
+      "question_type": "causal",
+      "question_template": "crowd_environment",
+      "question": "Why does the audio suggest a crowd environment?",
+      "answer": "crowd environment",
+      "evidence": "The audio contains 7 crowd-related events.",
+      "set": "train",
+      "audio_index": 19,
+      "audio_filename": "daqa_local_000019.wav"
+    },
+    {
+      "question_type": "what",
+      "question": "What sound occurs first in the audio?",
+      "answer": "crowd clapping",
+      "set": "train",
+      "audio_index": 20,
+      "audio_filename": "daqa_local_000020.wav"
+    },
+    {
+      "question_type": "what",
+      "question": "What sound occurs last in the audio?",
+      "answer": "crowd babbling",
+      "set": "train",
+      "audio_index": 20,
+      "audio_filename": "daqa_local_000020.wav"
+    },
+    {
+      "question_type": "counting",
+      "question": "How many crowd events occur in the audio?",
+      "answer": "3",
+      "set": "train",
+      "audio_index": 20,
+      "audio_filename": "daqa_local_000020.wav"
+    },
+    {
+      "question_type": "counting",
+      "question": "How many door events occur in the audio?",
+      "answer": "1",
+      "set": "train",
+      "audio_index": 20,
+      "audio_filename": "daqa_local_000020.wav"
+    },
+    {
+      "question_type": "counting",
+      "question": "How many human events occur in the audio?",
+      "answer": "1",
+      "set": "train",
+      "audio_index": 20,
+      "audio_filename": "daqa_local_000020.wav"
+    },
+    {
+      "question_type": "counting",
+      "question": "How many phone events occur in the audio?",
+      "answer": "1",
+      "set": "train",
+      "audio_index": 20,
+      "audio_filename": "daqa_local_000020.wav"
+    },
+    {
+      "question_type": "temporal",
+      "question": "What happens immediately after the crowd clapping?",
+      "answer": "door closing",
+      "set": "train",
+      "audio_index": 20,
+      "audio_filename": "daqa_local_000020.wav"
+    },
+    {
+      "question_type": "temporal",
+      "question": "What happens immediately after the door closing?",
+      "answer": "crowd babbling",
+      "set": "train",
+      "audio_index": 20,
+      "audio_filename": "daqa_local_000020.wav"
+    },
+    {
+      "question_type": "temporal",
+      "question": "What happens immediately after the crowd babbling?",
+      "answer": "human whistling",
+      "set": "train",
+      "audio_index": 20,
+      "audio_filename": "daqa_local_000020.wav"
+    },
+    {
+      "question_type": "temporal",
+      "question": "What happens immediately after the human whistling?",
+      "answer": "phone ringing",
+      "set": "train",
+      "audio_index": 20,
+      "audio_filename": "daqa_local_000020.wav"
+    },
+    {
+      "question_type": "temporal",
+      "question": "What happens immediately after the phone ringing?",
+      "answer": "crowd babbling",
+      "set": "train",
+      "audio_index": 20,
+      "audio_filename": "daqa_local_000020.wav"
+    },
+    {
+      "question_type": "causal",
+      "question_template": "crowd_environment",
+      "question": "Why does the audio suggest a crowd environment?",
+      "answer": "crowd environment",
+      "evidence": "The audio contains 3 crowd-related events.",
+      "set": "train",
+      "audio_index": 20,
+      "audio_filename": "daqa_local_000020.wav"
+    },
+    {
+      "question_type": "what",
+      "question": "What sound occurs first in the audio?",
+      "answer": "crowd babbling",
+      "set": "train",
+      "audio_index": 21,
+      "audio_filename": "daqa_local_000021.wav"
+    },
+    {
+      "question_type": "what",
+      "question": "What sound occurs last in the audio?",
+      "answer": "crowd babbling",
+      "set": "train",
+      "audio_index": 21,
+      "audio_filename": "daqa_local_000021.wav"
+    },
+    {
+      "question_type": "counting",
+      "question": "How many crowd events occur in the audio?",
+      "answer": "3",
+      "set": "train",
+      "audio_index": 21,
+      "audio_filename": "daqa_local_000021.wav"
+    },
+    {
+      "question_type": "counting",
+      "question": "How many door events occur in the audio?",
+      "answer": "2",
+      "set": "train",
+      "audio_index": 21,
+      "audio_filename": "daqa_local_000021.wav"
+    },
+    {
+      "question_type": "counting",
+      "question": "How many doorbell events occur in the audio?",
+      "answer": "2",
+      "set": "train",
+      "audio_index": 21,
+      "audio_filename": "daqa_local_000021.wav"
+    },
+    {
+      "question_type": "counting",
+      "question": "How many human events occur in the audio?",
+      "answer": "1",
+      "set": "train",
+      "audio_index": 21,
+      "audio_filename": "daqa_local_000021.wav"
+    },
+    {
+      "question_type": "temporal",
+      "question": "What happens immediately after the crowd babbling?",
+      "answer": "door slamming",
+      "set": "train",
+      "audio_index": 21,
+      "audio_filename": "daqa_local_000021.wav"
+    },
+    {
+      "question_type": "temporal",
+      "question": "What happens immediately after the door slamming?",
+      "answer": "doorbell ringing",
+      "set": "train",
+      "audio_index": 21,
+      "audio_filename": "daqa_local_000021.wav"
+    },
+    {
+      "question_type": "temporal",
+      "question": "What happens immediately after the doorbell ringing?",
+      "answer": "door slamming",
+      "set": "train",
+      "audio_index": 21,
+      "audio_filename": "daqa_local_000021.wav"
+    },
+    {
+      "question_type": "temporal",
+      "question": "What happens immediately after the door slamming?",
+      "answer": "crowd rioting",
+      "set": "train",
+      "audio_index": 21,
+      "audio_filename": "daqa_local_000021.wav"
+    },
+    {
+      "question_type": "temporal",
+      "question": "What happens immediately after the crowd rioting?",
+      "answer": "human whistling",
+      "set": "train",
+      "audio_index": 21,
+      "audio_filename": "daqa_local_000021.wav"
+    },
+    {
+      "question_type": "temporal",
+      "question": "What happens immediately after the human whistling?",
+      "answer": "doorbell ringing",
+      "set": "train",
+      "audio_index": 21,
+      "audio_filename": "daqa_local_000021.wav"
+    },
+    {
+      "question_type": "temporal",
+      "question": "What happens immediately after the doorbell ringing?",
+      "answer": "crowd babbling",
+      "set": "train",
+      "audio_index": 21,
+      "audio_filename": "daqa_local_000021.wav"
+    },
+    {
+      "question_type": "causal",
+      "question_template": "background_environment",
+      "question": "Why does the audio suggest that a background environment is present?",
+      "answer": "background environment",
+      "evidence": "Background sound layer: background_2.",
+      "set": "train",
+      "audio_index": 21,
+      "audio_filename": "daqa_local_000021.wav"
+    },
+    {
+      "question_type": "causal",
+      "question_template": "crowd_environment",
+      "question": "Why does the audio suggest a crowd environment?",
+      "answer": "crowd environment",
+      "evidence": "The audio contains 3 crowd-related events.",
+      "set": "train",
+      "audio_index": 21,
+      "audio_filename": "daqa_local_000021.wav"
+    },
+    {
+      "question_type": "what",
+      "question": "What sound occurs first in the audio?",
+      "answer": "crowd applauding",
+      "set": "train",
+      "audio_index": 22,
+      "audio_filename": "daqa_local_000022.wav"
+    },
+    {
+      "question_type": "what",
+      "question": "What sound occurs last in the audio?",
+      "answer": "crowd babbling",
+      "set": "train",
+      "audio_index": 22,
+      "audio_filename": "daqa_local_000022.wav"
+    },
+    {
+      "question_type": "counting",
+      "question": "How many crowd events occur in the audio?",
+      "answer": "2",
+      "set": "train",
+      "audio_index": 22,
+      "audio_filename": "daqa_local_000022.wav"
+    },
+    {
+      "question_type": "counting",
+      "question": "How many door events occur in the audio?",
+      "answer": "3",
+      "set": "train",
+      "audio_index": 22,
+      "audio_filename": "daqa_local_000022.wav"
+    },
+    {
+      "question_type": "counting",
+      "question": "How many phone events occur in the audio?",
+      "answer": "2",
+      "set": "train",
+      "audio_index": 22,
+      "audio_filename": "daqa_local_000022.wav"
+    },
+    {
+      "question_type": "temporal",
+      "question": "What happens immediately after the crowd applauding?",
+      "answer": "phone ringing",
+      "set": "train",
+      "audio_index": 22,
+      "audio_filename": "daqa_local_000022.wav"
+    },
+    {
+      "question_type": "temporal",
+      "question": "What happens immediately after the phone ringing?",
+      "answer": "door shutting",
+      "set": "train",
+      "audio_index": 22,
+      "audio_filename": "daqa_local_000022.wav"
+    },
+    {
+      "question_type": "temporal",
+      "question": "What happens immediately after the door shutting?",
+      "answer": "door closing",
+      "set": "train",
+      "audio_index": 22,
+      "audio_filename": "daqa_local_000022.wav"
+    },
+    {
+      "question_type": "temporal",
+      "question": "What happens immediately after the door closing?",
+      "answer": "phone ringing",
+      "set": "train",
+      "audio_index": 22,
+      "audio_filename": "daqa_local_000022.wav"
+    },
+    {
+      "question_type": "temporal",
+      "question": "What happens immediately after the phone ringing?",
+      "answer": "door slamming",
+      "set": "train",
+      "audio_index": 22,
+      "audio_filename": "daqa_local_000022.wav"
+    },
+    {
+      "question_type": "temporal",
+      "question": "What happens immediately after the door slamming?",
+      "answer": "crowd babbling",
+      "set": "train",
+      "audio_index": 22,
+      "audio_filename": "daqa_local_000022.wav"
+    },
+    {
+      "question_type": "causal",
+      "question_template": "background_environment",
+      "question": "Why does the audio suggest that a background environment is present?",
+      "answer": "background environment",
+      "evidence": "Background sound layer: background_4.",
+      "set": "train",
+      "audio_index": 22,
+      "audio_filename": "daqa_local_000022.wav"
+    },
+    {
+      "question_type": "causal",
+      "question_template": "crowd_environment",
+      "question": "Why does the audio suggest a crowd environment?",
+      "answer": "crowd environment",
+      "evidence": "The audio contains 2 crowd-related events.",
+      "set": "train",
+      "audio_index": 22,
+      "audio_filename": "daqa_local_000022.wav"
+    },
+    {
+      "question_type": "what",
+      "question": "What sound occurs first in the audio?",
+      "answer": "crowd rioting",
+      "set": "train",
+      "audio_index": 23,
+      "audio_filename": "daqa_local_000023.wav"
+    },
+    {
+      "question_type": "what",
+      "question": "What sound occurs last in the audio?",
+      "answer": "crowd babbling",
+      "set": "train",
+      "audio_index": 23,
+      "audio_filename": "daqa_local_000023.wav"
+    },
+    {
+      "question_type": "counting",
+      "question": "How many crowd events occur in the audio?",
+      "answer": "3",
+      "set": "train",
+      "audio_index": 23,
+      "audio_filename": "daqa_local_000023.wav"
+    },
+    {
+      "question_type": "counting",
+      "question": "How many door events occur in the audio?",
+      "answer": "2",
+      "set": "train",
+      "audio_index": 23,
+      "audio_filename": "daqa_local_000023.wav"
+    },
+    {
+      "question_type": "counting",
+      "question": "How many phone events occur in the audio?",
+      "answer": "1",
+      "set": "train",
+      "audio_index": 23,
+      "audio_filename": "daqa_local_000023.wav"
+    },
+    {
+      "question_type": "temporal",
+      "question": "What happens immediately after the crowd rioting?",
+      "answer": "crowd making noise",
+      "set": "train",
+      "audio_index": 23,
+      "audio_filename": "daqa_local_000023.wav"
+    },
+    {
+      "question_type": "temporal",
+      "question": "What happens immediately after the crowd making noise?",
+      "answer": "phone ringing",
+      "set": "train",
+      "audio_index": 23,
+      "audio_filename": "daqa_local_000023.wav"
+    },
+    {
+      "question_type": "temporal",
+      "question": "What happens immediately after the phone ringing?",
+      "answer": "door slamming",
+      "set": "train",
+      "audio_index": 23,
+      "audio_filename": "daqa_local_000023.wav"
+    },
+    {
+      "question_type": "temporal",
+      "question": "What happens immediately after the door slamming?",
+      "answer": "door closing",
+      "set": "train",
+      "audio_index": 23,
+      "audio_filename": "daqa_local_000023.wav"
+    },
+    {
+      "question_type": "temporal",
+      "question": "What happens immediately after the door closing?",
+      "answer": "crowd babbling",
+      "set": "train",
+      "audio_index": 23,
+      "audio_filename": "daqa_local_000023.wav"
+    },
+    {
+      "question_type": "causal",
+      "question_template": "crowd_environment",
+      "question": "Why does the audio suggest a crowd environment?",
+      "answer": "crowd environment",
+      "evidence": "The audio contains 3 crowd-related events.",
+      "set": "train",
+      "audio_index": 23,
+      "audio_filename": "daqa_local_000023.wav"
+    },
+    {
+      "question_type": "what",
+      "question": "What sound occurs first in the audio?",
+      "answer": "crowd babbling",
+      "set": "train",
+      "audio_index": 24,
+      "audio_filename": "daqa_local_000024.wav"
+    },
+    {
+      "question_type": "what",
+      "question": "What sound occurs last in the audio?",
+      "answer": "crowd clapping",
+      "set": "train",
+      "audio_index": 24,
+      "audio_filename": "daqa_local_000024.wav"
+    },
+    {
+      "question_type": "counting",
+      "question": "How many crowd events occur in the audio?",
+      "answer": "4",
+      "set": "train",
+      "audio_index": 24,
+      "audio_filename": "daqa_local_000024.wav"
+    },
+    {
+      "question_type": "counting",
+      "question": "How many door events occur in the audio?",
+      "answer": "3",
+      "set": "train",
+      "audio_index": 24,
+      "audio_filename": "daqa_local_000024.wav"
+    },
+    {
+      "question_type": "counting",
+      "question": "How many phone events occur in the audio?",
+      "answer": "1",
+      "set": "train",
+      "audio_index": 24,
+      "audio_filename": "daqa_local_000024.wav"
+    },
+    {
+      "question_type": "temporal",
+      "question": "What happens immediately after the crowd babbling?",
+      "answer": "crowd rioting",
+      "set": "train",
+      "audio_index": 24,
+      "audio_filename": "daqa_local_000024.wav"
+    },
+    {
+      "question_type": "temporal",
+      "question": "What happens immediately after the crowd rioting?",
+      "answer": "door slamming",
+      "set": "train",
+      "audio_index": 24,
+      "audio_filename": "daqa_local_000024.wav"
+    },
+    {
+      "question_type": "temporal",
+      "question": "What happens immediately after the door slamming?",
+      "answer": "crowd applauding",
+      "set": "train",
+      "audio_index": 24,
+      "audio_filename": "daqa_local_000024.wav"
+    },
+    {
+      "question_type": "temporal",
+      "question": "What happens immediately after the crowd applauding?",
+      "answer": "door shutting",
+      "set": "train",
+      "audio_index": 24,
+      "audio_filename": "daqa_local_000024.wav"
+    },
+    {
+      "question_type": "temporal",
+      "question": "What happens immediately after the door shutting?",
+      "answer": "phone ringing",
+      "set": "train",
+      "audio_index": 24,
+      "audio_filename": "daqa_local_000024.wav"
+    },
+    {
+      "question_type": "temporal",
+      "question": "What happens immediately after the phone ringing?",
+      "answer": "door slamming",
+      "set": "train",
+      "audio_index": 24,
+      "audio_filename": "daqa_local_000024.wav"
+    },
+    {
+      "question_type": "temporal",
+      "question": "What happens immediately after the door slamming?",
+      "answer": "crowd clapping",
+      "set": "train",
+      "audio_index": 24,
+      "audio_filename": "daqa_local_000024.wav"
+    },
+    {
+      "question_type": "causal",
+      "question_template": "crowd_environment",
+      "question": "Why does the audio suggest a crowd environment?",
+      "answer": "crowd environment",
+      "evidence": "The audio contains 4 crowd-related events.",
+      "set": "train",
+      "audio_index": 24,
+      "audio_filename": "daqa_local_000024.wav"
+    },
+    {
+      "question_type": "what",
+      "question": "What sound occurs first in the audio?",
+      "answer": "phone ringing",
+      "set": "train",
+      "audio_index": 25,
+      "audio_filename": "daqa_local_000025.wav"
+    },
+    {
+      "question_type": "what",
+      "question": "What sound occurs last in the audio?",
+      "answer": "human whistling",
+      "set": "train",
+      "audio_index": 25,
+      "audio_filename": "daqa_local_000025.wav"
+    },
+    {
+      "question_type": "counting",
+      "question": "How many crowd events occur in the audio?",
+      "answer": "1",
+      "set": "train",
+      "audio_index": 25,
+      "audio_filename": "daqa_local_000025.wav"
+    },
+    {
+      "question_type": "counting",
+      "question": "How many door events occur in the audio?",
+      "answer": "2",
+      "set": "train",
+      "audio_index": 25,
+      "audio_filename": "daqa_local_000025.wav"
+    },
+    {
+      "question_type": "counting",
+      "question": "How many human events occur in the audio?",
+      "answer": "1",
+      "set": "train",
+      "audio_index": 25,
+      "audio_filename": "daqa_local_000025.wav"
+    },
+    {
+      "question_type": "counting",
+      "question": "How many phone events occur in the audio?",
+      "answer": "3",
+      "set": "train",
+      "audio_index": 25,
+      "audio_filename": "daqa_local_000025.wav"
+    },
+    {
+      "question_type": "temporal",
+      "question": "What happens immediately after the phone ringing?",
+      "answer": "crowd making noise",
+      "set": "train",
+      "audio_index": 25,
+      "audio_filename": "daqa_local_000025.wav"
+    },
+    {
+      "question_type": "temporal",
+      "question": "What happens immediately after the crowd making noise?",
+      "answer": "phone ringing",
+      "set": "train",
+      "audio_index": 25,
+      "audio_filename": "daqa_local_000025.wav"
+    },
+    {
+      "question_type": "temporal",
+      "question": "What happens immediately after the phone ringing?",
+      "answer": "phone ringing",
+      "set": "train",
+      "audio_index": 25,
+      "audio_filename": "daqa_local_000025.wav"
+    },
+    {
+      "question_type": "temporal",
+      "question": "What happens immediately after the phone ringing?",
+      "answer": "door slamming",
+      "set": "train",
+      "audio_index": 25,
+      "audio_filename": "daqa_local_000025.wav"
+    },
+    {
+      "question_type": "temporal",
+      "question": "What happens immediately after the door slamming?",
+      "answer": "door closing",
+      "set": "train",
+      "audio_index": 25,
+      "audio_filename": "daqa_local_000025.wav"
+    },
+    {
+      "question_type": "temporal",
+      "question": "What happens immediately after the door closing?",
+      "answer": "human whistling",
+      "set": "train",
+      "audio_index": 25,
+      "audio_filename": "daqa_local_000025.wav"
+    },
+    {
+      "question_type": "causal",
+      "question_template": "crowd_environment",
+      "question": "Why does the audio suggest a crowd environment?",
+      "answer": "crowd environment",
+      "evidence": "The audio contains 1 crowd-related events.",
+      "set": "train",
+      "audio_index": 25,
+      "audio_filename": "daqa_local_000025.wav"
+    },
+    {
+      "question_type": "what",
+      "question": "What sound occurs first in the audio?",
+      "answer": "crowd babbling",
+      "set": "train",
+      "audio_index": 26,
+      "audio_filename": "daqa_local_000026.wav"
+    },
+    {
+      "question_type": "what",
+      "question": "What sound occurs last in the audio?",
+      "answer": "door shutting",
+      "set": "train",
+      "audio_index": 26,
+      "audio_filename": "daqa_local_000026.wav"
+    },
+    {
+      "question_type": "counting",
+      "question": "How many crowd events occur in the audio?",
+      "answer": "2",
+      "set": "train",
+      "audio_index": 26,
+      "audio_filename": "daqa_local_000026.wav"
+    },
+    {
+      "question_type": "counting",
+      "question": "How many door events occur in the audio?",
+      "answer": "2",
+      "set": "train",
+      "audio_index": 26,
+      "audio_filename": "daqa_local_000026.wav"
+    },
+    {
+      "question_type": "counting",
+      "question": "How many doorbell events occur in the audio?",
+      "answer": "1",
+      "set": "train",
+      "audio_index": 26,
+      "audio_filename": "daqa_local_000026.wav"
+    },
+    {
+      "question_type": "temporal",
+      "question": "What happens immediately after the crowd babbling?",
+      "answer": "door closing",
+      "set": "train",
+      "audio_index": 26,
+      "audio_filename": "daqa_local_000026.wav"
+    },
+    {
+      "question_type": "temporal",
+      "question": "What happens immediately after the door closing?",
+      "answer": "doorbell ringing",
+      "set": "train",
+      "audio_index": 26,
+      "audio_filename": "daqa_local_000026.wav"
+    },
+    {
+      "question_type": "temporal",
+      "question": "What happens immediately after the doorbell ringing?",
+      "answer": "crowd babbling",
+      "set": "train",
+      "audio_index": 26,
+      "audio_filename": "daqa_local_000026.wav"
+    },
+    {
+      "question_type": "temporal",
+      "question": "What happens immediately after the crowd babbling?",
+      "answer": "door shutting",
+      "set": "train",
+      "audio_index": 26,
+      "audio_filename": "daqa_local_000026.wav"
+    },
+    {
+      "question_type": "causal",
+      "question_template": "crowd_environment",
+      "question": "Why does the audio suggest a crowd environment?",
+      "answer": "crowd environment",
+      "evidence": "The audio contains 2 crowd-related events.",
+      "set": "train",
+      "audio_index": 26,
+      "audio_filename": "daqa_local_000026.wav"
+    },
+    {
+      "question_type": "what",
+      "question": "What sound occurs first in the audio?",
+      "answer": "door slamming",
+      "set": "train",
+      "audio_index": 27,
+      "audio_filename": "daqa_local_000027.wav"
+    },
+    {
+      "question_type": "what",
+      "question": "What sound occurs last in the audio?",
+      "answer": "crowd rioting",
+      "set": "train",
+      "audio_index": 27,
+      "audio_filename": "daqa_local_000027.wav"
+    },
+    {
+      "question_type": "counting",
+      "question": "How many crowd events occur in the audio?",
+      "answer": "3",
+      "set": "train",
+      "audio_index": 27,
+      "audio_filename": "daqa_local_000027.wav"
+    },
+    {
+      "question_type": "counting",
+      "question": "How many door events occur in the audio?",
+      "answer": "5",
+      "set": "train",
+      "audio_index": 27,
+      "audio_filename": "daqa_local_000027.wav"
+    },
+    {
+      "question_type": "temporal",
+      "question": "What happens immediately after the door slamming?",
+      "answer": "door slamming",
+      "set": "train",
+      "audio_index": 27,
+      "audio_filename": "daqa_local_000027.wav"
+    },
+    {
+      "question_type": "temporal",
+      "question": "What happens immediately after the door slamming?",
+      "answer": "door closing",
+      "set": "train",
+      "audio_index": 27,
+      "audio_filename": "daqa_local_000027.wav"
+    },
+    {
+      "question_type": "temporal",
+      "question": "What happens immediately after the door closing?",
+      "answer": "crowd babbling",
+      "set": "train",
+      "audio_index": 27,
+      "audio_filename": "daqa_local_000027.wav"
+    },
+    {
+      "question_type": "temporal",
+      "question": "What happens immediately after the crowd babbling?",
+      "answer": "door shutting",
+      "set": "train",
+      "audio_index": 27,
+      "audio_filename": "daqa_local_000027.wav"
+    },
+    {
+      "question_type": "temporal",
+      "question": "What happens immediately after the door shutting?",
+      "answer": "crowd rioting",
+      "set": "train",
+      "audio_index": 27,
+      "audio_filename": "daqa_local_000027.wav"
+    },
+    {
+      "question_type": "temporal",
+      "question": "What happens immediately after the crowd rioting?",
+      "answer": "door closing",
+      "set": "train",
+      "audio_index": 27,
+      "audio_filename": "daqa_local_000027.wav"
+    },
+    {
+      "question_type": "temporal",
+      "question": "What happens immediately after the door closing?",
+      "answer": "crowd rioting",
+      "set": "train",
+      "audio_index": 27,
+      "audio_filename": "daqa_local_000027.wav"
+    },
+    {
+      "question_type": "causal",
+      "question_template": "crowd_environment",
+      "question": "Why does the audio suggest a crowd environment?",
+      "answer": "crowd environment",
+      "evidence": "The audio contains 3 crowd-related events.",
+      "set": "train",
+      "audio_index": 27,
+      "audio_filename": "daqa_local_000027.wav"
+    },
+    {
+      "question_type": "what",
+      "question": "What sound occurs first in the audio?",
+      "answer": "door slamming",
+      "set": "train",
+      "audio_index": 28,
+      "audio_filename": "daqa_local_000028.wav"
+    },
+    {
+      "question_type": "what",
+      "question": "What sound occurs last in the audio?",
+      "answer": "phone ringing",
+      "set": "train",
+      "audio_index": 28,
+      "audio_filename": "daqa_local_000028.wav"
+    },
+    {
+      "question_type": "counting",
+      "question": "How many crowd events occur in the audio?",
+      "answer": "1",
+      "set": "train",
+      "audio_index": 28,
+      "audio_filename": "daqa_local_000028.wav"
+    },
+    {
+      "question_type": "counting",
+      "question": "How many door events occur in the audio?",
+      "answer": "2",
+      "set": "train",
+      "audio_index": 28,
+      "audio_filename": "daqa_local_000028.wav"
+    },
+    {
+      "question_type": "counting",
+      "question": "How many phone events occur in the audio?",
+      "answer": "2",
+      "set": "train",
+      "audio_index": 28,
+      "audio_filename": "daqa_local_000028.wav"
+    },
+    {
+      "question_type": "temporal",
+      "question": "What happens immediately after the door slamming?",
+      "answer": "phone ringing",
+      "set": "train",
+      "audio_index": 28,
+      "audio_filename": "daqa_local_000028.wav"
+    },
+    {
+      "question_type": "temporal",
+      "question": "What happens immediately after the phone ringing?",
+      "answer": "crowd making noise",
+      "set": "train",
+      "audio_index": 28,
+      "audio_filename": "daqa_local_000028.wav"
+    },
+    {
+      "question_type": "temporal",
+      "question": "What happens immediately after the crowd making noise?",
+      "answer": "door slamming",
+      "set": "train",
+      "audio_index": 28,
+      "audio_filename": "daqa_local_000028.wav"
+    },
+    {
+      "question_type": "temporal",
+      "question": "What happens immediately after the door slamming?",
+      "answer": "phone ringing",
+      "set": "train",
+      "audio_index": 28,
+      "audio_filename": "daqa_local_000028.wav"
+    },
+    {
+      "question_type": "causal",
+      "question_template": "crowd_environment",
+      "question": "Why does the audio suggest a crowd environment?",
+      "answer": "crowd environment",
+      "evidence": "The audio contains 1 crowd-related events.",
+      "set": "train",
+      "audio_index": 28,
+      "audio_filename": "daqa_local_000028.wav"
+    },
+    {
+      "question_type": "what",
+      "question": "What sound occurs first in the audio?",
+      "answer": "crowd babbling",
+      "set": "train",
+      "audio_index": 29,
+      "audio_filename": "daqa_local_000029.wav"
+    },
+    {
+      "question_type": "what",
+      "question": "What sound occurs last in the audio?",
+      "answer": "phone ringing",
+      "set": "train",
+      "audio_index": 29,
+      "audio_filename": "daqa_local_000029.wav"
+    },
+    {
+      "question_type": "counting",
+      "question": "How many crowd events occur in the audio?",
+      "answer": "1",
+      "set": "train",
+      "audio_index": 29,
+      "audio_filename": "daqa_local_000029.wav"
+    },
+    {
+      "question_type": "counting",
+      "question": "How many door events occur in the audio?",
+      "answer": "3",
+      "set": "train",
+      "audio_index": 29,
+      "audio_filename": "daqa_local_000029.wav"
+    },
+    {
+      "question_type": "counting",
+      "question": "How many human events occur in the audio?",
+      "answer": "1",
+      "set": "train",
+      "audio_index": 29,
+      "audio_filename": "daqa_local_000029.wav"
+    },
+    {
+      "question_type": "counting",
+      "question": "How many phone events occur in the audio?",
+      "answer": "2",
+      "set": "train",
+      "audio_index": 29,
+      "audio_filename": "daqa_local_000029.wav"
+    },
+    {
+      "question_type": "temporal",
+      "question": "What happens immediately after the crowd babbling?",
+      "answer": "door slamming",
+      "set": "train",
+      "audio_index": 29,
+      "audio_filename": "daqa_local_000029.wav"
+    },
+    {
+      "question_type": "temporal",
+      "question": "What happens immediately after the door slamming?",
+      "answer": "door slamming",
+      "set": "train",
+      "audio_index": 29,
+      "audio_filename": "daqa_local_000029.wav"
+    },
+    {
+      "question_type": "temporal",
+      "question": "What happens immediately after the door slamming?",
+      "answer": "phone ringing",
+      "set": "train",
+      "audio_index": 29,
+      "audio_filename": "daqa_local_000029.wav"
+    },
+    {
+      "question_type": "temporal",
+      "question": "What happens immediately after the phone ringing?",
+      "answer": "door closing",
+      "set": "train",
+      "audio_index": 29,
+      "audio_filename": "daqa_local_000029.wav"
+    },
+    {
+      "question_type": "temporal",
+      "question": "What happens immediately after the door closing?",
+      "answer": "human whistling",
+      "set": "train",
+      "audio_index": 29,
+      "audio_filename": "daqa_local_000029.wav"
+    },
+    {
+      "question_type": "temporal",
+      "question": "What happens immediately after the human whistling?",
+      "answer": "phone ringing",
+      "set": "train",
+      "audio_index": 29,
+      "audio_filename": "daqa_local_000029.wav"
+    },
+    {
+      "question_type": "causal",
+      "question_template": "crowd_environment",
+      "question": "Why does the audio suggest a crowd environment?",
+      "answer": "crowd environment",
+      "evidence": "The audio contains 1 crowd-related events.",
+      "set": "train",
+      "audio_index": 29,
+      "audio_filename": "daqa_local_000029.wav"
+    },
+    {
+      "question_type": "what",
+      "question": "What sound occurs first in the audio?",
+      "answer": "crowd clapping",
+      "set": "train",
+      "audio_index": 30,
+      "audio_filename": "daqa_local_000030.wav"
+    },
+    {
+      "question_type": "what",
+      "question": "What sound occurs last in the audio?",
+      "answer": "crowd babbling",
+      "set": "train",
+      "audio_index": 30,
+      "audio_filename": "daqa_local_000030.wav"
+    },
+    {
+      "question_type": "counting",
+      "question": "How many crowd events occur in the audio?",
+      "answer": "4",
+      "set": "train",
+      "audio_index": 30,
+      "audio_filename": "daqa_local_000030.wav"
+    },
+    {
+      "question_type": "counting",
+      "question": "How many door events occur in the audio?",
+      "answer": "1",
+      "set": "train",
+      "audio_index": 30,
+      "audio_filename": "daqa_local_000030.wav"
+    },
+    {
+      "question_type": "counting",
+      "question": "How many phone events occur in the audio?",
+      "answer": "1",
+      "set": "train",
+      "audio_index": 30,
+      "audio_filename": "daqa_local_000030.wav"
+    },
+    {
+      "question_type": "temporal",
+      "question": "What happens immediately after the crowd clapping?",
+      "answer": "crowd babbling",
+      "set": "train",
+      "audio_index": 30,
+      "audio_filename": "daqa_local_000030.wav"
+    },
+    {
+      "question_type": "temporal",
+      "question": "What happens immediately after the crowd babbling?",
+      "answer": "door shutting",
+      "set": "train",
+      "audio_index": 30,
+      "audio_filename": "daqa_local_000030.wav"
+    },
+    {
+      "question_type": "temporal",
+      "question": "What happens immediately after the door shutting?",
+      "answer": "crowd rioting",
+      "set": "train",
+      "audio_index": 30,
+      "audio_filename": "daqa_local_000030.wav"
+    },
+    {
+      "question_type": "temporal",
+      "question": "What happens immediately after the crowd rioting?",
+      "answer": "phone ringing",
+      "set": "train",
+      "audio_index": 30,
+      "audio_filename": "daqa_local_000030.wav"
+    },
+    {
+      "question_type": "temporal",
+      "question": "What happens immediately after the phone ringing?",
+      "answer": "crowd babbling",
+      "set": "train",
+      "audio_index": 30,
+      "audio_filename": "daqa_local_000030.wav"
+    },
+    {
+      "question_type": "causal",
+      "question_template": "background_environment",
+      "question": "Why does the audio suggest that a background environment is present?",
+      "answer": "background environment",
+      "evidence": "Background sound layer: background_1.",
+      "set": "train",
+      "audio_index": 30,
+      "audio_filename": "daqa_local_000030.wav"
+    },
+    {
+      "question_type": "causal",
+      "question_template": "crowd_environment",
+      "question": "Why does the audio suggest a crowd environment?",
+      "answer": "crowd environment",
+      "evidence": "The audio contains 4 crowd-related events.",
+      "set": "train",
+      "audio_index": 30,
+      "audio_filename": "daqa_local_000030.wav"
+    },
+    {
+      "question_type": "what",
+      "question": "What sound occurs first in the audio?",
+      "answer": "crowd applauding",
+      "set": "train",
+      "audio_index": 31,
+      "audio_filename": "daqa_local_000031.wav"
+    },
+    {
+      "question_type": "what",
+      "question": "What sound occurs last in the audio?",
+      "answer": "phone ringing",
+      "set": "train",
+      "audio_index": 31,
+      "audio_filename": "daqa_local_000031.wav"
+    },
+    {
+      "question_type": "counting",
+      "question": "How many crowd events occur in the audio?",
+      "answer": "3",
+      "set": "train",
+      "audio_index": 31,
+      "audio_filename": "daqa_local_000031.wav"
+    },
+    {
+      "question_type": "counting",
+      "question": "How many door events occur in the audio?",
+      "answer": "2",
+      "set": "train",
+      "audio_index": 31,
+      "audio_filename": "daqa_local_000031.wav"
+    },
+    {
+      "question_type": "counting",
+      "question": "How many phone events occur in the audio?",
+      "answer": "3",
+      "set": "train",
+      "audio_index": 31,
+      "audio_filename": "daqa_local_000031.wav"
+    },
+    {
+      "question_type": "temporal",
+      "question": "What happens immediately after the crowd applauding?",
+      "answer": "crowd rioting",
+      "set": "train",
+      "audio_index": 31,
+      "audio_filename": "daqa_local_000031.wav"
+    },
+    {
+      "question_type": "temporal",
+      "question": "What happens immediately after the crowd rioting?",
+      "answer": "door closing",
+      "set": "train",
+      "audio_index": 31,
+      "audio_filename": "daqa_local_000031.wav"
+    },
+    {
+      "question_type": "temporal",
+      "question": "What happens immediately after the door closing?",
+      "answer": "phone ringing",
+      "set": "train",
+      "audio_index": 31,
+      "audio_filename": "daqa_local_000031.wav"
+    },
+    {
+      "question_type": "temporal",
+      "question": "What happens immediately after the phone ringing?",
+      "answer": "crowd babbling",
+      "set": "train",
+      "audio_index": 31,
+      "audio_filename": "daqa_local_000031.wav"
+    },
+    {
+      "question_type": "temporal",
+      "question": "What happens immediately after the crowd babbling?",
+      "answer": "door slamming",
+      "set": "train",
+      "audio_index": 31,
+      "audio_filename": "daqa_local_000031.wav"
+    },
+    {
+      "question_type": "temporal",
+      "question": "What happens immediately after the door slamming?",
+      "answer": "phone ringing",
+      "set": "train",
+      "audio_index": 31,
+      "audio_filename": "daqa_local_000031.wav"
+    },
+    {
+      "question_type": "temporal",
+      "question": "What happens immediately after the phone ringing?",
+      "answer": "phone ringing",
+      "set": "train",
+      "audio_index": 31,
+      "audio_filename": "daqa_local_000031.wav"
+    },
+    {
+      "question_type": "causal",
+      "question_template": "background_environment",
+      "question": "Why does the audio suggest that a background environment is present?",
+      "answer": "background environment",
+      "evidence": "Background sound layer: background_2.",
+      "set": "train",
+      "audio_index": 31,
+      "audio_filename": "daqa_local_000031.wav"
+    },
+    {
+      "question_type": "causal",
+      "question_template": "crowd_environment",
+      "question": "Why does the audio suggest a crowd environment?",
+      "answer": "crowd environment",
+      "evidence": "The audio contains 3 crowd-related events.",
+      "set": "train",
+      "audio_index": 31,
+      "audio_filename": "daqa_local_000031.wav"
+    },
+    {
+      "question_type": "what",
+      "question": "What sound occurs first in the audio?",
+      "answer": "door closing",
+      "set": "train",
+      "audio_index": 32,
+      "audio_filename": "daqa_local_000032.wav"
+    },
+    {
+      "question_type": "what",
+      "question": "What sound occurs last in the audio?",
+      "answer": "door shutting",
+      "set": "train",
+      "audio_index": 32,
+      "audio_filename": "daqa_local_000032.wav"
+    },
+    {
+      "question_type": "counting",
+      "question": "How many crowd events occur in the audio?",
+      "answer": "4",
+      "set": "train",
+      "audio_index": 32,
+      "audio_filename": "daqa_local_000032.wav"
+    },
+    {
+      "question_type": "counting",
+      "question": "How many door events occur in the audio?",
+      "answer": "2",
+      "set": "train",
+      "audio_index": 32,
+      "audio_filename": "daqa_local_000032.wav"
+    },
+    {
+      "question_type": "counting",
+      "question": "How many phone events occur in the audio?",
+      "answer": "1",
+      "set": "train",
+      "audio_index": 32,
+      "audio_filename": "daqa_local_000032.wav"
+    },
+    {
+      "question_type": "temporal",
+      "question": "What happens immediately after the door closing?",
+      "answer": "phone ringing",
+      "set": "train",
+      "audio_index": 32,
+      "audio_filename": "daqa_local_000032.wav"
+    },
+    {
+      "question_type": "temporal",
+      "question": "What happens immediately after the phone ringing?",
+      "answer": "crowd rioting",
+      "set": "train",
+      "audio_index": 32,
+      "audio_filename": "daqa_local_000032.wav"
+    },
+    {
+      "question_type": "temporal",
+      "question": "What happens immediately after the crowd rioting?",
+      "answer": "crowd babbling",
+      "set": "train",
+      "audio_index": 32,
+      "audio_filename": "daqa_local_000032.wav"
+    },
+    {
+      "question_type": "temporal",
+      "question": "What happens immediately after the crowd babbling?",
+      "answer": "crowd babbling",
+      "set": "train",
+      "audio_index": 32,
+      "audio_filename": "daqa_local_000032.wav"
+    },
+    {
+      "question_type": "temporal",
+      "question": "What happens immediately after the crowd babbling?",
+      "answer": "crowd applauding",
+      "set": "train",
+      "audio_index": 32,
+      "audio_filename": "daqa_local_000032.wav"
+    },
+    {
+      "question_type": "temporal",
+      "question": "What happens immediately after the crowd applauding?",
+      "answer": "door shutting",
+      "set": "train",
+      "audio_index": 32,
+      "audio_filename": "daqa_local_000032.wav"
+    },
+    {
+      "question_type": "causal",
+      "question_template": "background_environment",
+      "question": "Why does the audio suggest that a background environment is present?",
+      "answer": "background environment",
+      "evidence": "Background sound layer: background_7.",
+      "set": "train",
+      "audio_index": 32,
+      "audio_filename": "daqa_local_000032.wav"
+    },
+    {
+      "question_type": "causal",
+      "question_template": "crowd_environment",
+      "question": "Why does the audio suggest a crowd environment?",
+      "answer": "crowd environment",
+      "evidence": "The audio contains 4 crowd-related events.",
+      "set": "train",
+      "audio_index": 32,
+      "audio_filename": "daqa_local_000032.wav"
+    },
+    {
+      "question_type": "what",
+      "question": "What sound occurs first in the audio?",
+      "answer": "door shutting",
+      "set": "train",
+      "audio_index": 33,
+      "audio_filename": "daqa_local_000033.wav"
+    },
+    {
+      "question_type": "what",
+      "question": "What sound occurs last in the audio?",
+      "answer": "crowd babbling",
+      "set": "train",
+      "audio_index": 33,
+      "audio_filename": "daqa_local_000033.wav"
+    },
+    {
+      "question_type": "counting",
+      "question": "How many crowd events occur in the audio?",
+      "answer": "5",
+      "set": "train",
+      "audio_index": 33,
+      "audio_filename": "daqa_local_000033.wav"
+    },
+    {
+      "question_type": "counting",
+      "question": "How many door events occur in the audio?",
+      "answer": "2",
+      "set": "train",
+      "audio_index": 33,
+      "audio_filename": "daqa_local_000033.wav"
+    },
+    {
+      "question_type": "temporal",
+      "question": "What happens immediately after the door shutting?",
+      "answer": "crowd clapping",
+      "set": "train",
+      "audio_index": 33,
+      "audio_filename": "daqa_local_000033.wav"
+    },
+    {
+      "question_type": "temporal",
+      "question": "What happens immediately after the crowd clapping?",
+      "answer": "crowd babbling",
+      "set": "train",
+      "audio_index": 33,
+      "audio_filename": "daqa_local_000033.wav"
+    },
+    {
+      "question_type": "temporal",
+      "question": "What happens immediately after the crowd babbling?",
+      "answer": "crowd babbling",
+      "set": "train",
+      "audio_index": 33,
+      "audio_filename": "daqa_local_000033.wav"
+    },
+    {
+      "question_type": "temporal",
+      "question": "What happens immediately after the crowd babbling?",
+      "answer": "door shutting",
+      "set": "train",
+      "audio_index": 33,
+      "audio_filename": "daqa_local_000033.wav"
+    },
+    {
+      "question_type": "temporal",
+      "question": "What happens immediately after the door shutting?",
+      "answer": "crowd applauding",
+      "set": "train",
+      "audio_index": 33,
+      "audio_filename": "daqa_local_000033.wav"
+    },
+    {
+      "question_type": "temporal",
+      "question": "What happens immediately after the crowd applauding?",
+      "answer": "crowd babbling",
+      "set": "train",
+      "audio_index": 33,
+      "audio_filename": "daqa_local_000033.wav"
+    },
+    {
+      "question_type": "causal",
+      "question_template": "crowd_environment",
+      "question": "Why does the audio suggest a crowd environment?",
+      "answer": "crowd environment",
+      "evidence": "The audio contains 5 crowd-related events.",
+      "set": "train",
+      "audio_index": 33,
+      "audio_filename": "daqa_local_000033.wav"
+    },
+    {
+      "question_type": "what",
+      "question": "What sound occurs first in the audio?",
+      "answer": "crowd babbling",
+      "set": "train",
+      "audio_index": 34,
+      "audio_filename": "daqa_local_000034.wav"
+    },
+    {
+      "question_type": "what",
+      "question": "What sound occurs last in the audio?",
+      "answer": "crowd rioting",
+      "set": "train",
+      "audio_index": 34,
+      "audio_filename": "daqa_local_000034.wav"
+    },
+    {
+      "question_type": "counting",
+      "question": "How many crowd events occur in the audio?",
+      "answer": "4",
+      "set": "train",
+      "audio_index": 34,
+      "audio_filename": "daqa_local_000034.wav"
+    },
+    {
+      "question_type": "counting",
+      "question": "How many door events occur in the audio?",
+      "answer": "1",
+      "set": "train",
+      "audio_index": 34,
+      "audio_filename": "daqa_local_000034.wav"
+    },
+    {
+      "question_type": "counting",
+      "question": "How many doorbell events occur in the audio?",
+      "answer": "1",
+      "set": "train",
+      "audio_index": 34,
+      "audio_filename": "daqa_local_000034.wav"
+    },
+    {
+      "question_type": "counting",
+      "question": "How many phone events occur in the audio?",
+      "answer": "1",
+      "set": "train",
+      "audio_index": 34,
+      "audio_filename": "daqa_local_000034.wav"
+    },
+    {
+      "question_type": "temporal",
+      "question": "What happens immediately after the crowd babbling?",
+      "answer": "crowd clapping",
+      "set": "train",
+      "audio_index": 34,
+      "audio_filename": "daqa_local_000034.wav"
+    },
+    {
+      "question_type": "temporal",
+      "question": "What happens immediately after the crowd clapping?",
+      "answer": "phone ringing",
+      "set": "train",
+      "audio_index": 34,
+      "audio_filename": "daqa_local_000034.wav"
+    },
+    {
+      "question_type": "temporal",
+      "question": "What happens immediately after the phone ringing?",
+      "answer": "crowd babbling",
+      "set": "train",
+      "audio_index": 34,
+      "audio_filename": "daqa_local_000034.wav"
+    },
+    {
+      "question_type": "temporal",
+      "question": "What happens immediately after the crowd babbling?",
+      "answer": "doorbell ringing",
+      "set": "train",
+      "audio_index": 34,
+      "audio_filename": "daqa_local_000034.wav"
+    },
+    {
+      "question_type": "temporal",
+      "question": "What happens immediately after the doorbell ringing?",
+      "answer": "door shutting",
+      "set": "train",
+      "audio_index": 34,
+      "audio_filename": "daqa_local_000034.wav"
+    },
+    {
+      "question_type": "temporal",
+      "question": "What happens immediately after the door shutting?",
+      "answer": "crowd rioting",
+      "set": "train",
+      "audio_index": 34,
+      "audio_filename": "daqa_local_000034.wav"
+    },
+    {
+      "question_type": "causal",
+      "question_template": "crowd_environment",
+      "question": "Why does the audio suggest a crowd environment?",
+      "answer": "crowd environment",
+      "evidence": "The audio contains 4 crowd-related events.",
+      "set": "train",
+      "audio_index": 34,
+      "audio_filename": "daqa_local_000034.wav"
+    },
+    {
+      "question_type": "what",
+      "question": "What sound occurs first in the audio?",
+      "answer": "crowd rioting",
+      "set": "train",
+      "audio_index": 35,
+      "audio_filename": "daqa_local_000035.wav"
+    },
+    {
+      "question_type": "what",
+      "question": "What sound occurs last in the audio?",
+      "answer": "crowd babbling",
+      "set": "train",
+      "audio_index": 35,
+      "audio_filename": "daqa_local_000035.wav"
+    },
+    {
+      "question_type": "counting",
+      "question": "How many crowd events occur in the audio?",
+      "answer": "4",
+      "set": "train",
+      "audio_index": 35,
+      "audio_filename": "daqa_local_000035.wav"
+    },
+    {
+      "question_type": "counting",
+      "question": "How many doorbell events occur in the audio?",
+      "answer": "1",
+      "set": "train",
+      "audio_index": 35,
+      "audio_filename": "daqa_local_000035.wav"
+    },
+    {
+      "question_type": "counting",
+      "question": "How many human events occur in the audio?",
+      "answer": "1",
+      "set": "train",
+      "audio_index": 35,
+      "audio_filename": "daqa_local_000035.wav"
+    },
+    {
+      "question_type": "counting",
+      "question": "How many phone events occur in the audio?",
+      "answer": "1",
+      "set": "train",
+      "audio_index": 35,
+      "audio_filename": "daqa_local_000035.wav"
+    },
+    {
+      "question_type": "temporal",
+      "question": "What happens immediately after the crowd rioting?",
+      "answer": "phone ringing",
+      "set": "train",
+      "audio_index": 35,
+      "audio_filename": "daqa_local_000035.wav"
+    },
+    {
+      "question_type": "temporal",
+      "question": "What happens immediately after the phone ringing?",
+      "answer": "human whistling",
+      "set": "train",
+      "audio_index": 35,
+      "audio_filename": "daqa_local_000035.wav"
+    },
+    {
+      "question_type": "temporal",
+      "question": "What happens immediately after the human whistling?",
+      "answer": "crowd babbling",
+      "set": "train",
+      "audio_index": 35,
+      "audio_filename": "daqa_local_000035.wav"
+    },
+    {
+      "question_type": "temporal",
+      "question": "What happens immediately after the crowd babbling?",
+      "answer": "crowd making noise",
+      "set": "train",
+      "audio_index": 35,
+      "audio_filename": "daqa_local_000035.wav"
+    },
+    {
+      "question_type": "temporal",
+      "question": "What happens immediately after the crowd making noise?",
+      "answer": "doorbell ringing",
+      "set": "train",
+      "audio_index": 35,
+      "audio_filename": "daqa_local_000035.wav"
+    },
+    {
+      "question_type": "temporal",
+      "question": "What happens immediately after the doorbell ringing?",
+      "answer": "crowd babbling",
+      "set": "train",
+      "audio_index": 35,
+      "audio_filename": "daqa_local_000035.wav"
+    },
+    {
+      "question_type": "causal",
+      "question_template": "crowd_environment",
+      "question": "Why does the audio suggest a crowd environment?",
+      "answer": "crowd environment",
+      "evidence": "The audio contains 4 crowd-related events.",
+      "set": "train",
+      "audio_index": 35,
+      "audio_filename": "daqa_local_000035.wav"
+    },
+    {
+      "question_type": "what",
+      "question": "What sound occurs first in the audio?",
+      "answer": "crowd rioting",
+      "set": "train",
+      "audio_index": 36,
+      "audio_filename": "daqa_local_000036.wav"
+    },
+    {
+      "question_type": "what",
+      "question": "What sound occurs last in the audio?",
+      "answer": "crowd rioting",
+      "set": "train",
+      "audio_index": 36,
+      "audio_filename": "daqa_local_000036.wav"
+    },
+    {
+      "question_type": "counting",
+      "question": "How many crowd events occur in the audio?",
+      "answer": "5",
+      "set": "train",
+      "audio_index": 36,
+      "audio_filename": "daqa_local_000036.wav"
+    },
+    {
+      "question_type": "counting",
+      "question": "How many door events occur in the audio?",
+      "answer": "1",
+      "set": "train",
+      "audio_index": 36,
+      "audio_filename": "daqa_local_000036.wav"
+    },
+    {
+      "question_type": "temporal",
+      "question": "What happens immediately after the crowd rioting?",
+      "answer": "door shutting",
+      "set": "train",
+      "audio_index": 36,
+      "audio_filename": "daqa_local_000036.wav"
+    },
+    {
+      "question_type": "temporal",
+      "question": "What happens immediately after the door shutting?",
+      "answer": "crowd babbling",
+      "set": "train",
+      "audio_index": 36,
+      "audio_filename": "daqa_local_000036.wav"
+    },
+    {
+      "question_type": "temporal",
+      "question": "What happens immediately after the crowd babbling?",
+      "answer": "crowd making noise",
+      "set": "train",
+      "audio_index": 36,
+      "audio_filename": "daqa_local_000036.wav"
+    },
+    {
+      "question_type": "temporal",
+      "question": "What happens immediately after the crowd making noise?",
+      "answer": "crowd babbling",
+      "set": "train",
+      "audio_index": 36,
+      "audio_filename": "daqa_local_000036.wav"
+    },
+    {
+      "question_type": "temporal",
+      "question": "What happens immediately after the crowd babbling?",
+      "answer": "crowd rioting",
+      "set": "train",
+      "audio_index": 36,
+      "audio_filename": "daqa_local_000036.wav"
+    },
+    {
+      "question_type": "causal",
+      "question_template": "crowd_environment",
+      "question": "Why does the audio suggest a crowd environment?",
+      "answer": "crowd environment",
+      "evidence": "The audio contains 5 crowd-related events.",
+      "set": "train",
+      "audio_index": 36,
+      "audio_filename": "daqa_local_000036.wav"
+    },
+    {
+      "question_type": "what",
+      "question": "What sound occurs first in the audio?",
+      "answer": "door shutting",
+      "set": "train",
+      "audio_index": 37,
+      "audio_filename": "daqa_local_000037.wav"
+    },
+    {
+      "question_type": "what",
+      "question": "What sound occurs last in the audio?",
+      "answer": "door closing",
+      "set": "train",
+      "audio_index": 37,
+      "audio_filename": "daqa_local_000037.wav"
+    },
+    {
+      "question_type": "counting",
+      "question": "How many crowd events occur in the audio?",
+      "answer": "1",
+      "set": "train",
+      "audio_index": 37,
+      "audio_filename": "daqa_local_000037.wav"
+    },
+    {
+      "question_type": "counting",
+      "question": "How many door events occur in the audio?",
+      "answer": "3",
+      "set": "train",
+      "audio_index": 37,
+      "audio_filename": "daqa_local_000037.wav"
+    },
+    {
+      "question_type": "counting",
+      "question": "How many doorbell events occur in the audio?",
+      "answer": "1",
+      "set": "train",
+      "audio_index": 37,
+      "audio_filename": "daqa_local_000037.wav"
+    },
+    {
+      "question_type": "counting",
+      "question": "How many phone events occur in the audio?",
+      "answer": "1",
+      "set": "train",
+      "audio_index": 37,
+      "audio_filename": "daqa_local_000037.wav"
+    },
+    {
+      "question_type": "temporal",
+      "question": "What happens immediately after the door shutting?",
+      "answer": "phone ringing",
+      "set": "train",
+      "audio_index": 37,
+      "audio_filename": "daqa_local_000037.wav"
+    },
+    {
+      "question_type": "temporal",
+      "question": "What happens immediately after the phone ringing?",
+      "answer": "doorbell ringing",
+      "set": "train",
+      "audio_index": 37,
+      "audio_filename": "daqa_local_000037.wav"
+    },
+    {
+      "question_type": "temporal",
+      "question": "What happens immediately after the doorbell ringing?",
+      "answer": "door shutting",
+      "set": "train",
+      "audio_index": 37,
+      "audio_filename": "daqa_local_000037.wav"
+    },
+    {
+      "question_type": "temporal",
+      "question": "What happens immediately after the door shutting?",
+      "answer": "crowd applauding",
+      "set": "train",
+      "audio_index": 37,
+      "audio_filename": "daqa_local_000037.wav"
+    },
+    {
+      "question_type": "temporal",
+      "question": "What happens immediately after the crowd applauding?",
+      "answer": "door closing",
+      "set": "train",
+      "audio_index": 37,
+      "audio_filename": "daqa_local_000037.wav"
+    },
+    {
+      "question_type": "causal",
+      "question_template": "background_environment",
+      "question": "Why does the audio suggest that a background environment is present?",
+      "answer": "background environment",
+      "evidence": "Background sound layer: background_3.",
+      "set": "train",
+      "audio_index": 37,
+      "audio_filename": "daqa_local_000037.wav"
+    },
+    {
+      "question_type": "causal",
+      "question_template": "crowd_environment",
+      "question": "Why does the audio suggest a crowd environment?",
+      "answer": "crowd environment",
+      "evidence": "The audio contains 1 crowd-related events.",
+      "set": "train",
+      "audio_index": 37,
+      "audio_filename": "daqa_local_000037.wav"
+    },
+    {
+      "question_type": "what",
+      "question": "What sound occurs first in the audio?",
+      "answer": "door shutting",
+      "set": "train",
+      "audio_index": 38,
+      "audio_filename": "daqa_local_000038.wav"
+    },
+    {
+      "question_type": "what",
+      "question": "What sound occurs last in the audio?",
+      "answer": "crowd making noise",
+      "set": "train",
+      "audio_index": 38,
+      "audio_filename": "daqa_local_000038.wav"
+    },
+    {
+      "question_type": "counting",
+      "question": "How many crowd events occur in the audio?",
+      "answer": "5",
+      "set": "train",
+      "audio_index": 38,
+      "audio_filename": "daqa_local_000038.wav"
+    },
+    {
+      "question_type": "counting",
+      "question": "How many door events occur in the audio?",
+      "answer": "1",
+      "set": "train",
+      "audio_index": 38,
+      "audio_filename": "daqa_local_000038.wav"
+    },
+    {
+      "question_type": "counting",
+      "question": "How many phone events occur in the audio?",
+      "answer": "1",
+      "set": "train",
+      "audio_index": 38,
+      "audio_filename": "daqa_local_000038.wav"
+    },
+    {
+      "question_type": "temporal",
+      "question": "What happens immediately after the door shutting?",
+      "answer": "crowd babbling",
+      "set": "train",
+      "audio_index": 38,
+      "audio_filename": "daqa_local_000038.wav"
+    },
+    {
+      "question_type": "temporal",
+      "question": "What happens immediately after the crowd babbling?",
+      "answer": "phone ringing",
+      "set": "train",
+      "audio_index": 38,
+      "audio_filename": "daqa_local_000038.wav"
+    },
+    {
+      "question_type": "temporal",
+      "question": "What happens immediately after the phone ringing?",
+      "answer": "crowd rioting",
+      "set": "train",
+      "audio_index": 38,
+      "audio_filename": "daqa_local_000038.wav"
+    },
+    {
+      "question_type": "temporal",
+      "question": "What happens immediately after the crowd rioting?",
+      "answer": "crowd babbling",
+      "set": "train",
+      "audio_index": 38,
+      "audio_filename": "daqa_local_000038.wav"
+    },
+    {
+      "question_type": "temporal",
+      "question": "What happens immediately after the crowd babbling?",
+      "answer": "crowd babbling",
+      "set": "train",
+      "audio_index": 38,
+      "audio_filename": "daqa_local_000038.wav"
+    },
+    {
+      "question_type": "temporal",
+      "question": "What happens immediately after the crowd babbling?",
+      "answer": "crowd making noise",
+      "set": "train",
+      "audio_index": 38,
+      "audio_filename": "daqa_local_000038.wav"
+    },
+    {
+      "question_type": "causal",
+      "question_template": "background_environment",
+      "question": "Why does the audio suggest that a background environment is present?",
+      "answer": "background environment",
+      "evidence": "Background sound layer: background_3.",
+      "set": "train",
+      "audio_index": 38,
+      "audio_filename": "daqa_local_000038.wav"
+    },
+    {
+      "question_type": "causal",
+      "question_template": "crowd_environment",
+      "question": "Why does the audio suggest a crowd environment?",
+      "answer": "crowd environment",
+      "evidence": "The audio contains 5 crowd-related events.",
+      "set": "train",
+      "audio_index": 38,
+      "audio_filename": "daqa_local_000038.wav"
+    },
+    {
+      "question_type": "what",
+      "question": "What sound occurs first in the audio?",
+      "answer": "crowd rioting",
+      "set": "train",
+      "audio_index": 39,
+      "audio_filename": "daqa_local_000039.wav"
+    },
+    {
+      "question_type": "what",
+      "question": "What sound occurs last in the audio?",
+      "answer": "crowd babbling",
+      "set": "train",
+      "audio_index": 39,
+      "audio_filename": "daqa_local_000039.wav"
+    },
+    {
+      "question_type": "counting",
+      "question": "How many crowd events occur in the audio?",
+      "answer": "6",
+      "set": "train",
+      "audio_index": 39,
+      "audio_filename": "daqa_local_000039.wav"
+    },
+    {
+      "question_type": "temporal",
+      "question": "What happens immediately after the crowd rioting?",
+      "answer": "crowd babbling",
+      "set": "train",
+      "audio_index": 39,
+      "audio_filename": "daqa_local_000039.wav"
+    },
+    {
+      "question_type": "temporal",
+      "question": "What happens immediately after the crowd babbling?",
+      "answer": "crowd rioting",
+      "set": "train",
+      "audio_index": 39,
+      "audio_filename": "daqa_local_000039.wav"
+    },
+    {
+      "question_type": "temporal",
+      "question": "What happens immediately after the crowd rioting?",
+      "answer": "crowd babbling",
+      "set": "train",
+      "audio_index": 39,
+      "audio_filename": "daqa_local_000039.wav"
+    },
+    {
+      "question_type": "temporal",
+      "question": "What happens immediately after the crowd babbling?",
+      "answer": "crowd making noise",
+      "set": "train",
+      "audio_index": 39,
+      "audio_filename": "daqa_local_000039.wav"
+    },
+    {
+      "question_type": "temporal",
+      "question": "What happens immediately after the crowd making noise?",
+      "answer": "crowd babbling",
+      "set": "train",
+      "audio_index": 39,
+      "audio_filename": "daqa_local_000039.wav"
+    },
+    {
+      "question_type": "causal",
+      "question_template": "crowd_environment",
+      "question": "Why does the audio suggest a crowd environment?",
+      "answer": "crowd environment",
+      "evidence": "The audio contains 6 crowd-related events.",
+      "set": "train",
+      "audio_index": 39,
+      "audio_filename": "daqa_local_000039.wav"
+    }
+  ]
+}

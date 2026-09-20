@@ -1,0 +1,75 @@
+{
+  "set": "train",
+  "audio_index": 12,
+  "audio_filename": "daqa_local_000012.wav",
+  "sample_rate": 16000,
+  "duration": 30.85,
+  "background": "None",
+  "events": [
+    {
+      "order": 0,
+      "event": "p000",
+      "audio": "p000_7.wav",
+      "start_sample": 0,
+      "end_sample": 136000,
+      "start_time": 0.0,
+      "end_time": 8.5,
+      "duration": 8.5,
+      "source": "phone",
+      "action": "ringing",
+      "loudness": 43.29879455479927
+    },
+    {
+      "order": 1,
+      "event": "p000",
+      "audio": "p000_3.wav",
+      "start_sample": 136000,
+      "end_sample": 285600,
+      "start_time": 8.5,
+      "end_time": 17.85,
+      "duration": 9.35,
+      "source": "phone",
+      "action": "ringing",
+      "loudness": 23.735412007120257
+    },
+    {
+      "order": 2,
+      "event": "d000",
+      "audio": "d000_17.wav",
+      "start_sample": 285600,
+      "end_sample": 303200,
+      "start_time": 17.85,
+      "end_time": 18.95,
+      "duration": 1.1,
+      "source": "door",
+      "action": "slamming",
+      "loudness": 27.531443312246537
+    },
+    {
+      "order": 3,
+      "event": "p000",
+      "audio": "p000_7.wav",
+      "start_sample": 303200,
+      "end_sample": 439200,
+      "start_time": 18.95,
+      "end_time": 27.45,
+      "duration": 8.5,
+      "source": "phone",
+      "action": "ringing",
+      "loudness": 43.29879455479927
+    },
+    {
+      "order": 4,
+      "event": "h003",
+      "audio": "h003_4.wav",
+      "start_sample": 439200,
+      "end_sample": 493600,
+      "start_time": 27.45,
+      "end_time": 30.85,
+      "duration": 3.4,
+      "source": "human",
+      "action": "whistling",
+      "loudness": 23.11683352854224
+    }
+  ]
+}
